@@ -245,6 +245,7 @@ PRODUCT_PACKAGES += \
 # Signal Icons
 PRODUCT_PACKAGES += \
     AquariumSignalOverlay \
+    AcherusSignalOverlay \
     BarsSignalOverlay \
     ButterflySignalOverlay \
     CircleSignalOverlay \
@@ -261,7 +262,9 @@ PRODUCT_PACKAGES += \
     MiniSignalOverlay \
     NothingDotSignalOverlay \
     OdinSignalOverlay \
+    OutlineSignalOverlay \
     PillsSignalOverlay \
+    PUISignalOverlay \
     RelSignalOverlay \
     RomanSignalOverlay \
     RoundSignalOverlay \
@@ -279,11 +282,13 @@ PRODUCT_PACKAGES += \
 
 # WiFi Icons
 PRODUCT_PACKAGES += \
+    AcherusWiFiOverlay \
     BarsWiFiOverlay \
     DoraWiFiOverlay \
     GradiconWiFiOverlay \
     InsideWiFiOverlay \
     NothingDotWiFiOverlay \
+    OutlineWiFiOverlay \
     RoundWiFiOverlay \
     SneakyWiFiOverlay \
     StrokeWiFiOverlay \
