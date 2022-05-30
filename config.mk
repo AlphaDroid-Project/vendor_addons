@@ -194,12 +194,17 @@ PRODUCT_PACKAGES += \
 
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
+	AcherusWiFiOverlay \
+	AcherusSignalOverlay \
 	BarsSignalOverlay \
 	BarsWiFiOverlay \
 	DoraSignalOverlay \
 	DoraWiFiOverlay \
 	InsideSignalOverlay \
 	InsideWiFiOverlay \
+	OutlineWiFiOverlay \
+	OutlineSignalOverlay \
+	PUISignalOverlay \
 	RoundSignalOverlay \
 	RoundWiFiOverlay \
 	SneakySignalOverlay \
