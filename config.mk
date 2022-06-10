@@ -196,14 +196,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	AcherusWiFiOverlay \
 	AcherusSignalOverlay \
+	AquariumSignalOverlay \
 	BarsSignalOverlay \
 	BarsWiFiOverlay \
+	DeepSignalOverlay \
 	DoraSignalOverlay \
 	DoraWiFiOverlay \
+	HuaweiSignalOverlay \
+	IosSignalOverlay \
 	InsideSignalOverlay \
 	InsideWiFiOverlay \
 	OutlineWiFiOverlay \
 	OutlineSignalOverlay \
+	PillsSignalOverlay \
 	PUISignalOverlay \
 	RoundSignalOverlay \
 	RoundWiFiOverlay \
