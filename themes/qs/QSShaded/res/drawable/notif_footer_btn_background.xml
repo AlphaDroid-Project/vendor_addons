@@ -3,7 +3,7 @@
     android:color="?android:colorControlHighlight">
     		<item android:top="2.0dp" android:bottom="2.0dp">
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_50" />
+                    <solid android:color="@*android:color/system_neutral2_0" />
                     <corners android:radius="@dimen/qs_corner_radius" />
                 </shape>
             </item>
@@ -23,7 +23,7 @@
                 android:end="4.0dp"
                 android:top="6.0dp">
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_50" />
+                    <solid android:color="@*android:color/system_neutral2_0" />
                     <corners android:radius="@dimen/qs_corner_radius" />
                 </shape>
             </item>

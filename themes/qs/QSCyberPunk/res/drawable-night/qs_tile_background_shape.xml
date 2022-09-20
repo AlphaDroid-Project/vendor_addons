@@ -40,7 +40,7 @@
         <shape android:tintMode="multiply" android:shape="rectangle">
             <gradient
                 android:startColor="@*android:color/system_accent1_600"
-                android:endColor="@*android:color/system_accent1_100"
+                android:endColor="@*android:color/system_accent1_600"
                 android:angle="315.0" />
             <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
         </shape>
