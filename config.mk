@@ -172,7 +172,9 @@ PRODUCT_PACKAGES += \
     IconShapeStretchedOverlay \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
+    IconShapeVesselOverlay \
+    DefaultButSquareOverlay \
+    RiceBallsOverlay
 
 # Navbar
 PRODUCT_PACKAGES += \

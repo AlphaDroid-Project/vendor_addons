@@ -3,10 +3,10 @@
 		android:height="24.0dp"
 		android:viewportWidth="24.0"
 		android:viewportHeight="24.0"
-		android:tint="@*android:color/system_neutral2_50">
+		android:tint="@*android:color/system_neutral2_0">
 	<path
         android:tintMode="src_atop"
-		android:fillColor="@*android:color/system_neutral2_50"
+		android:fillColor="@*android:color/system_neutral2_0"
 		android:strokeLineJoin="miter"
 		android:fillType="nonZero"
 		android:strokeLineCap="square"
