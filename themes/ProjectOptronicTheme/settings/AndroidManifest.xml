@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bootleggers.shishufied.theme.optronic.settings"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay android:targetPackage="com.android.settings" android:category="android.theme.customization.style.settings" android:priority="1"/>
+
+    <application android:label="Project Optronic" android:hasCode="false" android:icon="@mipmap/ic_launcher"/>
+</manifest>
