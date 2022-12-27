@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SolarizedThemeSystemUIOverlay",
+    theme: "SolarizedThemeSystemUI",
+    product_specific: true,
+}

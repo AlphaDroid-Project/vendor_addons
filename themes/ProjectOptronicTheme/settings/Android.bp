@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ProjectOptronicThemeSettingsOverlay",
+    theme: "ProjectOptronicThemeSettings",
+    product_specific: true,
+}

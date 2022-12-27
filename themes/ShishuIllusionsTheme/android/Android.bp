@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ShishuIllusionsThemeAndroidOverlay",
+    theme: "ShishuIllusionsThemeAndroid",
+    product_specific: true,
+}

@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SolarizedThemeAndroidOverlay",
+    theme: "SolarizedThemeAndroid",
+    product_specific: true,
+}

@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ShishuThemeSettingsOverlay",
+    theme: "ShishuThemeSettings",
+    product_specific: true,
+}

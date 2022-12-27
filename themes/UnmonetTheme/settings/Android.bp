@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "UnmonetThemeSettingsOverlay",
+    theme: "UnmonetThemeSettings",
+    product_specific: true,
+}
