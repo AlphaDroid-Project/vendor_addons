@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "ProjectOptronicThemeAndroidOverlay",
+    theme: "ProjectOptronicThemeAndroid",
+    product_specific: true,
+}

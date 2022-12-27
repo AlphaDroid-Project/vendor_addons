@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "PacleggersThemeSystemUIOverlay",
+    theme: "PacleggersThemeSystemUI",
+    product_specific: true,
+}

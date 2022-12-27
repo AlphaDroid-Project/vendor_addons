@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NexodusThemeAndroidOverlay",
+    theme: "NexodusThemeAndroid",
+    product_specific: true,
+}
