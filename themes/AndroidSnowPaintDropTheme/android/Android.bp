@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "AndroidSnowPaintDropThemeOverlay",
+    theme: "AndroidSnowPaintDropTheme",
+    product_specific: true,
+}
