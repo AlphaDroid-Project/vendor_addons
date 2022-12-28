@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "AndroidVividThemeOverlay",
+    theme: "AndroidVividTheme",
+    product_specific: true,
+}
