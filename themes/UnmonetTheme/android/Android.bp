@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "UnmonetThemeAndroidOverlay",
-    theme: "UnmonetThemeAndroid",
-    product_specific: true,
-}
