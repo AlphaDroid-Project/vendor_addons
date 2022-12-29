@@ -108,6 +108,12 @@
     <alias name="googlesans-semi-bold" to="googlesans" weight="600" />
     <alias name="googlesans-bold" to="googlesans" weight="700" />
 
+    <!-- Google Sans Clock-->
+    <family customizationType="new-named-family" name="googlesansclock">
+        <font>GoogleSansClock-Regular.ttf</font>
+    </family>
+    <alias name="googlesansclock-regular" to="googlesansclock" weight="400" />
+
     <!-- GrandHotel -->
     <family customizationType="new-named-family" name="grandhotel">
         <font weight="400" style="normal">GrandHotel.ttf</font>
