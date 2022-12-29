@@ -36,6 +36,39 @@ PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/product/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/nexus.xml \
     vendor/addons/prebuilt/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
 
+# Clock Fonts
+PRODUCT_PACKAGES += \
+    ClockFontAccuratistOverlay \
+    ClockFontApiceOverlay \
+    ClockFontAudimatOverlay \
+    ClockFontBariolOverlay \
+    ClockFontCoconOverlay \
+    ClockFontComfortaaOverlay \
+    ClockFontComicSansOverlay \
+    ClockFontCoolstoryOverlay \
+    ClockFontExotwoOverlay \
+    ClockFontEvolveSansOverlay \
+    ClockFontFluidSansOverlay \
+    ClockFontGoogleSansOverlay \
+    ClockFontGeometosOverlay \
+    ClockFontHarmonySansOverlay \
+    ClockFontJTLeonorOverlay \
+    ClockFontLinotteOverlay \
+    ClockFontMiSansOverlay \
+    ClockFontNokiaPureOverlay \
+    ClockFontNothingDotHeadlineOverlay \
+    ClockFontOneplusSansOverlay \
+    ClockFontOneplusSlateOverlay \
+    ClockFontOppoSansOverlay \
+    ClockFontProductSansVHOverlay \
+    ClockFontRobotoCondensedOverlay \
+    ClockFontRosemaryOverlay \
+    ClockFontRubikOverlay \
+    ClockFontSanFranciscoDisplayProSourceOverlay \
+    ClockFontSamsungOneOverlay \
+    ClockFontSimpleDaySourceOverlay \
+    ClockFontSonySketchOverlay \
+
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
