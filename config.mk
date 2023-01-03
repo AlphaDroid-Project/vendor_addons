@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     UdfpsAnimations
 endif
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/addons/prebuilt/bootanimation/bootanimation.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip
+
 PRODUCT_COPY_FILES += \
     vendor/addons/prebuilt/product/etc/sysconfig/dialer_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/dialer_experience.xml \
     vendor/addons/prebuilt/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
