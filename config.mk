@@ -62,6 +62,8 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
+		ClockFont3DIsometricBlackOverlay \
+    ClockFont3DIsometricBoldOverlay \
     ClockFontACFilmstripOverlay \
     ClockFontAccuratistOverlay \
     ClockFontAclonicaOverlay \
@@ -71,6 +73,10 @@ PRODUCT_PACKAGES += \
     ClockFontAlphaWoodOverlay \
     ClockFontAmaranteOverlay \
     ClockFontAmpad3D2Overlay \
+    ClockFontBalticBoddenOverlay \
+    ClockFontBalticCoastOverlay \
+    ClockFontBalticDuneOverlay \
+    ClockFontBalticStormOverlay \
     ClockFontBariolOverlay \
     ClockFontBetsyFlanaganOverlay \
     ClockFontBigCheeseOverlay \
@@ -79,6 +85,7 @@ PRODUCT_PACKAGES += \
     ClockFontBunnyRabbitsOverlay \
     ClockFontCFBadNewsOverlay \
     ClockFontCFOneTwoTreesOverlay \
+    ClockFontCafe24DecoshadowOverlay \
     ClockFontCagliostroOverlay \
     ClockFontCatOverlay \
     ClockFontCoconOverlay \
@@ -97,6 +104,7 @@ PRODUCT_PACKAGES += \
     ClockFontFibographyOverlay \
     ClockFontFifa2018Overlay \
     ClockFontFloorlightOverlay \
+    ClockFontFortaOverlay \
     ClockFontGautsMotelUpperRightOverlay \
     ClockFontGoogleSansFlexOverlay \
     ClockFontGrandHotelOverlay \
@@ -111,10 +119,13 @@ PRODUCT_PACKAGES += \
     ClockFontLinotteOverlay \
     ClockFontLittleBunnyOverlay \
     ClockFontLowerAtmosphereOverlay \
+    ClockFontMXWasgardOverlay \
     ClockFontMessingLetternOverlay \
     ClockFontMonbijouxClownpieceOverlay \
     ClockFontMotorola \
+    ClockFontMuseoModernoOverlay \
     ClockFontNeonDiscoOverlay \
+    ClockFontNeptunCATOverlay \
     ClockFontNinjasOverlay \
     ClockFontNokiaPureOverlay \
     ClockFontNothingDotHeadlineOverlay \
@@ -126,6 +137,7 @@ PRODUCT_PACKAGES += \
     ClockFontPlaidEventOverlay \
     ClockFontPlantsLettersOverlay \
     ClockFontPlayOverlay \
+    ClockFontProdeltCoOverlay \
     ClockFontQuandoOverlay \
     ClockFontQuickSouthOverlay \
     ClockFontRedressedOverlay \
@@ -134,6 +146,7 @@ PRODUCT_PACKAGES += \
     ClockFontRobotoCondensedOverlay \
     ClockFontRomantiquesOverlay \
     ClockFontRoundheadsOverlay \
+    ClockFontRubikGlitchOverlay \
     ClockFontRubikOverlay \
     ClockFontSamsungOneOverlay \
     ClockFontSansSerifOverlay \
@@ -144,6 +157,7 @@ PRODUCT_PACKAGES += \
     ClockFontStoropiaOverlay \
     ClockFontSurferOverlay \
     ClockFontTh3machineOverlay \
+    ClockFontTourneyMediumOverlay \
     ClockFontUbuntuOverlay \
     ClockFontVtksdura3dOverlay \
     ClockFontZnikomitNo24Overlay \
