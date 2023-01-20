@@ -226,7 +226,7 @@ PRODUCT_PACKAGES += \
 
 # Hide cutout
 PRODUCT_PACKAGES += \
-    HideCutoutOverlay
+    NoCutoutOverlay
 
 # Themes
 PRODUCT_PACKAGES += \
