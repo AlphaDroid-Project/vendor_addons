@@ -215,6 +215,10 @@ PRODUCT_PACKAGES += \
 	ZigZagSignalOverlay \
 	ZigZagWiFiOverlay
 
+# Hide cutout
+PRODUCT_PACKAGES += \
+    HideCutoutOverlay
+
 # Themes
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
