@@ -20,7 +20,7 @@
 
     <overlay
         android:targetPackage="android"
-        android:category="android.theme.customization.clock_font"
+        android:category="android.theme.customization.lockscreen_clock_font"
         android:priority="1" />
 
     <application
