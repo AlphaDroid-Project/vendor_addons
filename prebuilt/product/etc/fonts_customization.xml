@@ -200,7 +200,7 @@
     </family>
     <alias name="ndot" to="NDot55" />
     <alias name="ndot57" to="NDot57" />
-    <alias name="ndot57-align" to="NDot57-Aligned" /> 
+    <alias name="ndot57-align" to="NDot57-Aligned" />
 
     <!-- NothingDot -->
     <family customizationType="new-named-family" name="pixelwars">
