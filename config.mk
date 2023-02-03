@@ -91,6 +91,8 @@ PRODUCT_PACKAGES += \
     FontLGSmartGothicOverlay \
     FontLinotteOverlay \
     FontNokiaPureOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNothingDotOverlay \
     FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
