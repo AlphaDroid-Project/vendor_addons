@@ -274,7 +274,13 @@ PRODUCT_PACKAGES += \
 # QS Panel
 PRODUCT_PACKAGES += \
     QSOutline \
-    QSTwoToneAccent
+    QSTwoToneAccent \
+    QSShaded \
+    QSCyberPunk \
+    QSNeumorph \
+    QSReflected \
+    QSSurround \
+    QSThin
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
