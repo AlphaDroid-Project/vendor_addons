@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSReflected",
+    theme: "QSReflected",
+    product_specific: true,
+}

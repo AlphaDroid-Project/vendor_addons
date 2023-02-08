@@ -13,12 +13,12 @@
                 android:start="4.0dp"
                 android:end="4.0dp"
                 android:top="4.0dp">
-                <shape android:tintMode="multiply">
+                <shape android:tintMode="src_atop">
                     <gradient
                         android:angle="0.0"
                         android:centerColor="#00000000"
                         android:endColor="#00000000"
-                        android:startColor="#40000000" />
+                        android:startColor="#1A000000" />
                     <corners android:radius="@dimen/qs_corner_radius" />
                 </shape>
             </item>

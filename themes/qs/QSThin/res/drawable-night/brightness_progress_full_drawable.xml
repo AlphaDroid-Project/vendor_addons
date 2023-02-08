@@ -8,8 +8,8 @@
             <size android:height="40.0dip" />
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/system_accent1_400"
-                android:startColor="@*android:color/system_accent1_400" />
+                android:endColor="@*android:color/system_accent1_600"
+                android:startColor="@*android:color/system_accent1_600" />
         </shape>
     </item>
 </layer-list>

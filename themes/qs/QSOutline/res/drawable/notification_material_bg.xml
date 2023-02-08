@@ -20,12 +20,12 @@
         android:color="?android:attr/colorControlHighlight">
     <item>
         <shape android:shape="rectangle">
-                <corners android:radius="24dp" />
+        	<stroke android:width="@dimen/qs_tile_stroke" android:color="@drawable/color_accent_alpha" />
+                <corners android:radius="?android:attr/dialogCornerRadius" />
                 <padding
                     android:left="10dp"
                     android:right="10dp" />
-            <stroke android:width="@dimen/qs_tile_stroke" android:color="?android:attr/colorAccent" />
-          <solid android:color="@drawable/color_accent_alpha" />
+             <solid android:color="?androidprv:attr/colorSurface" />
        </shape>
     </item>
 </ripple>

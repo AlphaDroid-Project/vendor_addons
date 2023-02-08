@@ -9,7 +9,7 @@
             <gradient
                 android:angle="0.0"
                 android:endColor="@*android:color/system_accent2_200"
-                android:startColor="@*android:color/system_accent1_400" />
+                android:startColor="@*android:color/system_accent1_600" />
         </shape>
     </item>
     <item android:gravity="fill_horizontal|center">
@@ -29,7 +29,7 @@
             <gradient
                 android:angle="0.0"
                 android:endColor="@*android:color/system_accent2_200"
-                android:startColor="@*android:color/system_accent1_400" />
+                android:startColor="@*android:color/system_accent1_600" />
         </shape>
     </item>
 </layer-list>

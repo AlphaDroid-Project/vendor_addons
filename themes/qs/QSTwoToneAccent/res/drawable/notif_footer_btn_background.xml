@@ -22,11 +22,11 @@
             android:insetBottom="4dp"
             android:insetTop="4dp">
             <shape android:shape="rectangle">
-                <corners android:radius="24dp" />
+                <corners android:radius="?android:attr/dialogCornerRadius" />
                 <padding
                     android:left="20dp"
                     android:right="20dp" />
-                <solid android:color="@*android:color/qs_translucent_brightness_bg" />
+                <solid android:color="#59FFFFFF" />
             </shape>
         </inset>
     </item>

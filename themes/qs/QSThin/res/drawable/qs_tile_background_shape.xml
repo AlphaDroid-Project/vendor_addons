@@ -4,7 +4,7 @@
         <layer-list>
             <item>
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_accent1_400" />
+                    <solid android:color="@*android:color/system_neutral2_50" />
                     <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
                 </shape>
             </item>
@@ -13,8 +13,11 @@
                 android:start="2.0dp"
                 android:end="2.0dp"
                 android:top="2.0dp">
-                <shape>
-                    <solid android:color="@*android:color/system_accent1_0" />
+                <shape android:tintMode="src_atop">
+                    <gradient
+                        android:angle="0.0"
+                        android:endColor="#B3FFFFFF"
+                        android:startColor="#99FFFFFF" />
                     <corners android:radius="@*android:dimen/harmful_app_name_padding_right" />
                 </shape>
             </item>
