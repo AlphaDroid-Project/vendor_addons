@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSThin",
+    theme: "QSThin",
+    product_specific: true,
+}
