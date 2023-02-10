@@ -3,8 +3,10 @@
     <item>
         <layer-list>
             <item>
-                <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_50" />
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
+                    <solid android:color="@*android:color/system_accent1_400" />
                     <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
                 </shape>
             </item>
@@ -13,7 +15,9 @@
                 android:start="2.0dp"
                 android:end="2.0dp"
                 android:top="2.0dp">
-                <shape android:tintMode="src_atop">
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
                     <gradient
                         android:angle="270.0"
                         android:endColor="#FFF0F0F0"
@@ -26,7 +30,9 @@
                 android:start="4.0dp"
                 android:end="4.0dp"
                 android:top="4.0dp">
-                <shape android:tintMode="src_atop">
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
                     <gradient
                         android:angle="90.0"
                         android:endColor="#FFF0F0F0"

@@ -3,7 +3,7 @@
     <item>
         <layer-list>
             <item>
-                <shape android:tintMode="src_atop">
+                <shape>
                     <solid android:color="@*android:color/system_neutral2_50" />
                     <corners android:radius="52.0dp" />
                 </shape>
@@ -19,8 +19,8 @@
                 android:gravity="left|center"
                 android:start="4.5dp"
                 android:top="4.0dp">
-                <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_50" />
+                <shape>
+                    <solid android:color="@*android:color/system_neutral2_0" />
                     <corners android:radius="52.0dp" />
                     <size android:width="52.0dp" />
                 </shape>

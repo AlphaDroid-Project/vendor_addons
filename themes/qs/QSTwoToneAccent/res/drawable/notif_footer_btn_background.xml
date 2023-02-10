@@ -26,7 +26,7 @@
                 <padding
                     android:left="20dp"
                     android:right="20dp" />
-                <solid android:color="@drawable/color_accent_alpha" />
+                <solid android:color="@*android:color/qs_translucent_brightness_bg" />
             </shape>
         </inset>
     </item>

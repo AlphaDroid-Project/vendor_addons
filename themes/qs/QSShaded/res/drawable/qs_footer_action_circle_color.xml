@@ -9,7 +9,7 @@
             </shape>
         </item>
         <item>
-            <shape>
+            <shape android:tintMode="src_atop">
                 <corners android:radius="@dimen/qs_corner_radius" />
                 <gradient
                     android:angle="0.0"
@@ -22,7 +22,7 @@
             android:start="4.0dp"
             android:end="4.0dp"
             android:top="4.0dp">
-            <shape>
+            <shape android:tintMode="multiply">
                 <corners android:radius="@dimen/qs_corner_radius" />
                 <gradient
                     android:angle="0.0"

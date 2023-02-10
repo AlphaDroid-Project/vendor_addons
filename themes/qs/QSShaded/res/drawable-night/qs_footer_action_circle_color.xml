@@ -9,12 +9,12 @@
             </shape>
         </item>
         <item>
-            <shape>
+            <shape android:tintMode="multiply">
                 <corners android:radius="@dimen/qs_corner_radius" />
                 <gradient
                     android:angle="0.0"
-                    android:endColor="@*android:color/system_accent1_400"
-                    android:startColor="@*android:color/system_accent1_400" />
+                    android:endColor="@*android:color/system_accent1_600"
+                    android:startColor="@*android:color/system_accent1_600" />
             </shape>
         </item>
         <item
@@ -22,7 +22,7 @@
             android:start="4.0dp"
             android:end="4.0dp"
             android:top="4.0dp">
-            <shape>
+            <shape android:tintMode="multiply">
                 <corners android:radius="@dimen/qs_corner_radius" />
                 <gradient
                     android:angle="0.0"
