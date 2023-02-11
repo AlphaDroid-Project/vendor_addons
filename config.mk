@@ -235,9 +235,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
 
-# Weather
+# Extras
 PRODUCT_PACKAGES += \
-    OmniJaws
+    OmniJaws \
+    Lawnicons
 
 # QS Panel
 PRODUCT_PACKAGES += \
