@@ -23,12 +23,12 @@
     </style>
 
   <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title" parent="*android:TextAppearance.Material.Widget.ActionBar.Title">
-    <item name="android:textAllCaps">true</item>
+    <!--item name="android:textAllCaps">true</item-->
     <item name="android:letterSpacing">0.10</item>
   </style>
 
   <style name="TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse" parent="*android:TextAppearance.Material.Widget.ActionBar.Title.Inverse">
-    <item name="android:textAllCaps">true</item>
+    <!--item name="android:textAllCaps">true</item-->
     <item name="android:letterSpacing">0.10</item>
   </style>
 </resources>

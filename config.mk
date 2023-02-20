@@ -231,55 +231,52 @@ PRODUCT_PACKAGES += \
 
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
-	AcherusWiFiOverlay \
-	AcherusSignalOverlay \
-	AquariumSignalOverlay \
-	BarsSignalOverlay \
-	BarsWiFiOverlay \
-	DeepSignalOverlay \
-	DoraSignalOverlay \
-	DoraWiFiOverlay \
-	HuaweiSignalOverlay \
-	IosSignalOverlay \
-	InsideSignalOverlay \
-	InsideWiFiOverlay \
-	OutlineWiFiOverlay \
-	OutlineSignalOverlay \
-	PillsSignalOverlay \
-	PUISignalOverlay \
-	RoundSignalOverlay \
-	RoundWiFiOverlay \
-	SneakySignalOverlay \
-	SneakyWiFiOverlay \
-	StrokeSignalOverlay \
-	StrokeWiFiOverlay \
-	WavySignalOverlay \
-	WavyWiFiOverlay \
-	WeedWiFiOverlay \
-	XperiaSignalOverlay \
-	XperiaWiFiOverlay \
-	ZigZagSignalOverlay \
-	ZigZagWiFiOverlay
+    AcherusWiFiOverlay \
+    AcherusSignalOverlay \
+    AquariumSignalOverlay \
+    BarsSignalOverlay \
+    BarsWiFiOverlay \
+    DeepSignalOverlay \
+    DoraSignalOverlay \
+    DoraWiFiOverlay \
+    HuaweiSignalOverlay \
+    IosSignalOverlay \
+    InsideSignalOverlay \
+    InsideWiFiOverlay \
+    OutlineWiFiOverlay \
+    OutlineSignalOverlay \
+    PillsSignalOverlay \
+    PUISignalOverlay \
+    RoundSignalOverlay \
+    RoundWiFiOverlay \
+    SneakySignalOverlay \
+    SneakyWiFiOverlay \
+    StrokeSignalOverlay \
+    StrokeWiFiOverlay \
+    WavySignalOverlay \
+    WavyWiFiOverlay \
+    WeedWiFiOverlay \
+    XperiaSignalOverlay \
+    XperiaWiFiOverlay \
+    ZigZagSignalOverlay \
+    ZigZagWiFiOverlay
 
 # Hide cutout
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
-
 # UI styles
 PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay \
     AndroidVividThemeOverlay \
     AndroidEspressoThemeOverlay \
     AndroidSnowPaintDropThemeOverlay \
-    NexodusThemeAndroidOverlay \
-    NexodusThemeSettingsOverlay \
-    NexodusThemeSystemUIOverlay \
     PacleggersThemeAndroidOverlay \
     PacleggersThemeSettingsOverlay \
     PacleggersThemeSystemUIOverlay \
+    NexodusThemeAndroidOverlay \
+    NexodusThemeSettingsOverlay \
+    NexodusThemeSystemUIOverlay \
     ShishuIllusionsThemeAndroidOverlay \
     ShishuIllusionsThemeSettingsOverlay \
     ShishuIllusionsThemeSystemUIOverlay \
