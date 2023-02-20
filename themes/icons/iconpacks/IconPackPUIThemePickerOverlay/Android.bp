@@ -17,5 +17,6 @@
 runtime_resource_overlay {
     name: "IconPackPUIThemePickerOverlay",
     theme: "IconPackPUIThemePicker",
+    certificate: "platform",
     product_specific: true,
 }

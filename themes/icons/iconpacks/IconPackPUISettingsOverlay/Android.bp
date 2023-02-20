@@ -14,7 +14,6 @@
 // limitations under the License.
 //
 
-
 runtime_resource_overlay {
     name: "IconPackPUISettingsOverlay",
     theme: "IconPackPUISettings",
