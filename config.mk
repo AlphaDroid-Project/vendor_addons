@@ -233,7 +233,6 @@ PRODUCT_PACKAGES += \
 # UI styles
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
-    AndroidClearThemeOverlay \
     AndroidVividThemeOverlay \
     AndroidEspressoThemeOverlay \
     AndroidSnowPaintDropThemeOverlay \

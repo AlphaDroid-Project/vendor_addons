@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "AndroidClearThemeOverlay",
-    theme: "AndroidClearTheme",
-    product_specific: true,
-}
