@@ -287,10 +287,6 @@ PRODUCT_PACKAGES += \
     ShishuAmalgamationThemeSettingsOverlay \
     ShishuAmalgamationThemeSystemUIOverlay
 
-# Extras
-PRODUCT_PACKAGES += \
-    OmniJaws
-
 # QS Panel
 PRODUCT_PACKAGES += \
     QSOutline \
