@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QSOutline \
     QSTwoToneAccent \
+    QSTwoToneAccentTrans \
     QSShaded \
     QSCyberPunk \
     QSNeumorph \

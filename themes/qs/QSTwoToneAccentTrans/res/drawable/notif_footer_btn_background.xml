@@ -16,7 +16,7 @@
   -->
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
-    android:color="?androidprv:attr/colorSurface">
+    android:color="@drawable/color_accent_alpha">
     <item>
         <inset
             android:insetBottom="4dp"
@@ -26,7 +26,7 @@
                 <padding
                     android:left="20dp"
                     android:right="20dp" />
-                <solid android:color="?androidprv:attr/colorSurface" />
+                <solid android:color="#59FFFFFF" />
             </shape>
         </inset>
     </item>

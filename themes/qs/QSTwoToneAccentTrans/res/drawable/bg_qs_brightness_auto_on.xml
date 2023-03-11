@@ -14,20 +14,9 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-<ripple xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
-    android:color="?androidprv:attr/colorSurface">
-    <item>
-        <inset
-            android:insetBottom="4dp"
-            android:insetTop="4dp">
-            <shape android:shape="rectangle">
-                <corners android:radius="?android:attr/dialogCornerRadius" />
-                <padding
-                    android:left="20dp"
-                    android:right="20dp" />
-                <solid android:color="?androidprv:attr/colorSurface" />
-            </shape>
-        </inset>
-    </item>
-</ripple>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="?android:attr/dialogCornerRadius" />
+    <solid android:color="@drawable/color_accent_alpha" />
+    <size android:width="48dp" android:height="48dp" />
+</shape>
