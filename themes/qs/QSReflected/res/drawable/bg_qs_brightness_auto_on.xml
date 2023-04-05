@@ -6,7 +6,7 @@
             <gradient
                 android:angle="0.0"
                 android:endColor="@*android:color/system_accent2_200"
-                android:startColor="@*android:color/system_accent1_600" />
+                android:startColor="@*android:color/system_accent1_400" />
             <size
                 android:width="48.0dip"
                 android:height="48.0dip" />
@@ -29,7 +29,7 @@
             <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/system_accent1_600"
+                android:endColor="@*android:color/system_accent1_400"
                 android:startColor="@*android:color/system_accent2_200" />
             <size
                 android:width="40.0dip"

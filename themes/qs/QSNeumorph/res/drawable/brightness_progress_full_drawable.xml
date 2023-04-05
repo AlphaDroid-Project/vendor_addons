@@ -9,7 +9,7 @@
             <gradient
                 android:angle="0.0"
                 android:endColor="@*android:color/system_accent1_400"
-                android:startColor="#FFD4D4D4" />
+                android:startColor="@*android:color/system_accent1_400" />
         </shape>
     </item>
     <item
@@ -21,8 +21,8 @@
             <size android:height="44.0dip" />
             <gradient
                 android:angle="270.0"
-                android:endColor="@*android:color/system_accent1_600"
-                android:startColor="@*android:color/system_accent1_600" />
+                android:endColor="#FFF0F0F0"
+                android:startColor="#FFD4D4D4" />
         </shape>
     </item>
     <item
@@ -34,8 +34,8 @@
             <size android:height="40.0dip" />
             <gradient
                 android:angle="90.0"
-                android:endColor="@*android:color/system_accent1_600"
-                android:startColor="@*android:color/system_accent1_600" />
+                android:endColor="#FFF0F0F0"
+                android:startColor="#FFD4D4D4" />
         </shape>
     </item>
 </layer-list>

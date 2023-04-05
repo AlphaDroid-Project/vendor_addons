@@ -8,7 +8,7 @@
                 <shape android:shape="rectangle">
                     <corners android:radius="@dimen/qs_corner_radius" />
                     <size android:height="48.0dip" />
-                    <solid android:color="@*android:color/system_accent1_400" />
+                    <solid android:color="@*android:color/system_neutral2_0" />
                 </shape>
             </item>
             <item
@@ -21,7 +21,7 @@
                     <gradient
                         android:centerColor="#00000000"
                         android:endColor="#00000000"
-                        android:startColor="#40000000" />
+                        android:startColor="#1A000000" />
                 </shape>
             </item>
         </layer-list>

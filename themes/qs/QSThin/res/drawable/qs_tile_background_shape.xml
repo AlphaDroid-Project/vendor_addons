@@ -3,8 +3,8 @@
     <item>
         <layer-list>
             <item>
-                <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_50" />
+                <shape>
+                    <solid android:color="#99ffffff" />
                     <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
                 </shape>
             </item>
@@ -13,37 +13,8 @@
                 android:start="2.0dp"
                 android:end="2.0dp"
                 android:top="2.0dp">
-                <shape android:tintMode="src_atop">
-                    <gradient
-                        android:angle="0.0"
-                        android:endColor="#B3FFFFFF"
-                        android:startColor="#99FFFFFF" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_right" />
-                </shape>
-            </item>
-        </layer-list>
-    </item>
-    <item>
-        <layer-list>
-            <item>
-                <shape android:tintMode="multiply">
-                    <gradient
-                        android:angle="315.0"
-                        android:startColor="?android:colorSecondary"
-                        android:endColor="?android:colorPrimary" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
-                </shape>
-            </item>
-            <item
-                android:bottom="2.0dp"
-                android:start="2.0dp"
-                android:end="2.0dp"
-                android:top="2.0dp">
-                <shape android:tintMode="src_atop">
-                    <gradient
-                        android:angle="0.0"
-                        android:endColor="#B3FFFFFF"
-                        android:startColor="#99FFFFFF" />
+                <shape>
+                    <solid android:color="#ffffffff" />
                     <corners android:radius="@*android:dimen/harmful_app_name_padding_right" />
                 </shape>
             </item>

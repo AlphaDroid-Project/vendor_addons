@@ -10,10 +10,7 @@
         </item>
         <item>
             <shape android:tintMode="multiply">
-                <gradient
-                    android:angle="0.0"
-                    android:endColor="?android:colorSecondary"
-                    android:startColor="?android:colorPrimary" />
+                <solid android:color="@*android:color/system_neutral2_0" />
                 <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
             </shape>
         </item>
@@ -38,8 +35,8 @@
             <shape android:tintMode="multiply">
                 <gradient
                     android:angle="90.0"
-                    android:endColor="#FFF0F0F0"
-                    android:startColor="#FFD4D4D4" />
+                    android:endColor="@*android:color/system_accent1_400"
+                    android:startColor="@*android:color/system_accent1_400" />
                 <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
             </shape>
         </item>

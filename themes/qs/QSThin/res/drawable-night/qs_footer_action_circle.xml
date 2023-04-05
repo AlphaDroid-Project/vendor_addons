@@ -12,23 +12,22 @@
             <shape>
                 <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
                 <gradient
-                    android:angle="0.0"
+                    android:angle="315.0"
                     android:endColor="@*android:color/system_accent1_400"
                     android:startColor="@*android:color/system_accent1_400" />
             </shape>
         </item>
         <item
-            android:bottom="4.0dp"
-            android:start="4.0dp"
-            android:end="4.0dp"
-            android:top="4.0dp">
+            android:bottom="2.0dp"
+            android:start="2.0dp"
+            android:end="2.0dp"
+            android:top="2.0dp">
             <shape>
-                <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                <corners android:radius="@*android:dimen/harmful_app_name_padding_right" />
                 <gradient
                     android:angle="0.0"
-                    android:centerColor="#00000000"
-                    android:endColor="#00000000"
-                    android:startColor="#40000000" />
+                    android:endColor="#B3000000"
+                    android:startColor="#99000000" />
             </shape>
         </item>
     </ripple>
