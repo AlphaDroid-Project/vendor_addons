@@ -36,40 +36,6 @@ PRODUCT_COPY_FILES += \
 # Clock Fonts
 PRODUCT_PACKAGES += \
     ClockFontAccuratistOverlay \
-    ClockFontApiceOverlay \
-    ClockFontAudimatOverlay \
-    ClockFontBariolOverlay \
-    ClockFontCoconOverlay \
-    ClockFontComfortaaOverlay \
-    ClockFontComicSansOverlay \
-    ClockFontCoolstoryOverlay \
-    ClockFontExotwoOverlay \
-    ClockFontEvolveSansOverlay \
-    ClockFontFluidSansOverlay \
-    ClockFontGoogleSansOverlay \
-    ClockFontGeometosOverlay \
-    ClockFontHarmonySansOverlay \
-    ClockFontJTLeonorOverlay \
-    ClockFontLinotteOverlay \
-    ClockFontMiSansOverlay \
-    ClockFontNokiaPureOverlay \
-    ClockFontNothingDotHeadlineOverlay \
-    ClockFontOneplusSansOverlay \
-    ClockFontOneplusSlateOverlay \
-    ClockFontOppoSansOverlay \
-    ClockFontProductSansVHOverlay \
-    ClockFontRobotoCondensedOverlay \
-    ClockFontRosemaryOverlay \
-    ClockFontRubikOverlay \
-    ClockFontSanFranciscoDisplayProSourceOverlay \
-    ClockFontSamsungOneOverlay \
-    ClockFontSimpleDaySourceOverlay \
-    ClockFontSonySketchOverlay \
-
-# Fonts
-PRODUCT_PACKAGES += \
-    fonts_customization.xml \
-    ClockFontAccuratistOverlay \
     ClockFontAclonicaOverlay \
     ClockFontAmaranteOverlay \
     ClockFontBariolOverlay \
@@ -104,6 +70,10 @@ PRODUCT_PACKAGES += \
     ClockFontStoropiaOverlay \
     ClockFontSurferOverlay \
     ClockFontUbuntuOverlay \
+
+# Fonts
+PRODUCT_PACKAGES += \
+    fonts_customization.xml \
     FontAccuratistOverlay \
     FontAclonicaOverlay \
     FontAmaranteOverlay \
@@ -221,8 +191,8 @@ PRODUCT_PACKAGES += \
 # Navbar styles
 PRODUCT_PACKAGES += \
     NavbarAndroidOverlay \
-	NavbarAsusOverlay \
-	NavbarDoraOverlay \
+    NavbarAsusOverlay \
+    NavbarDoraOverlay \
     NavbarMotoOverlay \
     NavbarNexusOverlay \
     NavbarOldOverlay \

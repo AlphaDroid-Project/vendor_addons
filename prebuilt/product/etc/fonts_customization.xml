@@ -108,12 +108,6 @@
     <alias name="googlesans-semi-bold" to="googlesans" weight="600" />
     <alias name="googlesans-bold" to="googlesans" weight="700" />
 
-    <!-- Google Sans Clock-->
-    <family customizationType="new-named-family" name="googlesansclock">
-        <font>GoogleSansClock-Regular.ttf</font>
-    </family>
-    <alias name="googlesansclock-regular" to="googlesansclock" weight="400" />
-
     <!-- GrandHotel -->
     <family customizationType="new-named-family" name="grandhotel">
         <font weight="400" style="normal">GrandHotel.ttf</font>
@@ -200,7 +194,7 @@
     </family>
     <alias name="ndot" to="NDot55" />
     <alias name="ndot57" to="NDot57" />
-    <alias name="ndot57-align" to="NDot57-Aligned" />
+    <alias name="ndot57-align" to="NDot57-Aligned" /> 
 
     <!-- NothingDot -->
     <family customizationType="new-named-family" name="pixelwars">

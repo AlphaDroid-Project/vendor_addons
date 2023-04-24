@@ -1,6 +1,6 @@
 <!--
 /**
- * Copyright (c) 2022, riseOS Android Project
+ * Copyright (c) 2020, crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.theme.font.clock_clock_accuratist"
+    package="com.android.theme.lockscreen_clock_font.accuratist"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android"
@@ -26,6 +26,6 @@
     <application android:label="@string/font_accuratist_overlay" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="accuratist" />
+            android:value="accuratist,accuratist-semi-bold,accuratist-bold,accuratist-light,accuratist-medium" />
     </application>
 </manifest>

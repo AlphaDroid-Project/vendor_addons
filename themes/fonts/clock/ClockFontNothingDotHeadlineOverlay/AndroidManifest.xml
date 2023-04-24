@@ -1,6 +1,6 @@
 <!--
 /**
- * Copyright (c) 2022, riceDroid Android Project
+ * Copyright (c) 2023, crDroid Android Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,16 +16,16 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.theme.font.clock_nothingdotheadline"
+    package="com.android.theme.lockscreen_clock_font.nothingdotheadline"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android"
         android:category="android.theme.customization.lockscreen_clock_font"
         android:priority="1"/>
 
-    <application android:label="@string/font_nothingdot_overlay_headline" android:hasCode="false">
+    <application android:label="@string/font_nothingdot_overlay" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="nothingdotheadline" />
+            android:value="nothingdot57aligned" />
     </application>
 </manifest>
