@@ -53,6 +53,7 @@
         <item>udfps_rog_fusion_recognizing_anim</item>
         <item>udfps_rog_pulsar_recognizing_anim</item>
         <item>udfps_rog_supernova_recognizing_anim</item>
+        <item>udfps_genshin_fire_recognizing_anim</item>
     </string-array>
 
     <string-array translatable="false" name="udfps_animation_previews">
@@ -92,6 +93,7 @@
         <item>asus_udfps_anim_1_10</item>
         <item>asus_udfps_anim_2_35</item>
         <item>asus_udfps_anim_3_25</item>
+        <item>udfps_genshin_fire_recognizing_anim_22</item>
     </string-array>
 
     <string-array translatable="false" name="udfps_animation_titles">
@@ -131,6 +133,7 @@
         <item>Fusion</item>
         <item>Pulsar</item>
         <item>Supernova</item>
+        <item>Genshin fire</item>
     </string-array>
 
 </resources>
