@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="4dp">
+    <ripple android:color="?android:colorControlHighlight">
+        <item android:id="@*android:id/mask">
+            <shape android:shape="rectangle">
+                <solid android:color="#00000000" />
+                <corners android:radius="24dp" />
+            </shape>
+        </item>
+        <item>
+            <shape>
+                <corners android:radius="24dp" />
+                <gradient 
+                    android:startColor="@*android:color/bootleg_accent_gradient_end_color"
+                    android:centerColor="@*android:color/accent_device_default" 
+                    android:endColor="@*android:color/bootleg_accent_gradient_end_color" 
+                    android:angle="45" />
+            </shape>
+        </item>
+    </ripple>
+</inset>

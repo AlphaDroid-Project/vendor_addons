@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2020 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:priv-android="http://schemas.android.com/apk/prv/res/android"
+    android:autoMirrored="true">
+    <item android:id="@+id/slider_foreground"
+        android:height="48dp">
+        <shape>
+            <size android:height="48dp" />
+            <gradient android:startColor="@*android:color/bootleg_accent_gradient_end_color"  android:endColor="@*android:color/accent_device_default" android:angle="0" />
+            <corners android:radius="24dp"/>
+        </shape>
+    </item>
+    <item
+        android:id="@+id/slider_icon"
+        android:gravity="center_vertical|right"
+        android:height="20dp"
+        android:width="20dp"
+        android:right="14dp">
+        <!-- drawable/octahedron.xml -->
+            <vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+                <path android:fillColor="?android:attr/textColorPrimaryInverse" android:pathData="M21.7 11.29H21.71L12.71 2.29C12.5 2.1 12.26 2 12 2C11.74 2 11.5 2.1 11.29 2.29L2.29 11.29H2.3C1.91 11.68 1.91 12.32 2.3 12.71H2.29L11.29 21.71C11.5 21.9 11.74 22 12 22C12.26 22 12.5 21.9 12.71 21.71L21.71 12.71H21.7C22.09 12.32 22.09 11.68 21.7 11.29M13 8.28V5.41L17.3 9.71L13 8.28M11 8.28L6.7 9.71L11 5.41V8.28M12 10.05L17.84 12L12 13.95L6.16 12L12 10.05M11 15.72V18.59L6.7 14.29L11 15.72M13 15.72L17.3 14.29L13 18.59V15.72Z" />
+            </vector>
+    </item>
+</layer-list>
