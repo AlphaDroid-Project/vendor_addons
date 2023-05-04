@@ -30,18 +30,12 @@ $(TARGET_GENERATED_BOOTANIMATION): $(SOONG_ZIP)
 	IMAGESCALEWIDTH=$$IMAGEWIDTH; \
 	IMAGESCALEHEIGHT=$$(expr $$IMAGESCALEWIDTH \* 16 \/ 9); \
 	RESOLUTION="$$IMAGESCALEWIDTH"x"$$IMAGESCALEHEIGHT"; \
-	if [ "$$IMAGESCALEWIDTH" -eq 1440 ]; then \
-	    tar xfp vendor/addons/prebuilt/bootanimation/bootanimation_1440.tar -C $(INTERMEDIATES); \
-            echo "900 900 $(BOOTFPS)" > $(INTERMEDIATES)/desc.txt; \
-	elif [ "$$IMAGESCALEWIDTH" -eq 1080 ]; then \
-	    tar xfp vendor/addons/prebuilt/bootanimation/bootanimation_1080.tar -C $(INTERMEDIATES); \
-            echo "680 680 $(BOOTFPS)" > $(INTERMEDIATES)/desc.txt; \
-	elif [ "$$IMAGESCALEWIDTH" -eq 720 ]; then \
+	if [ "$$IMAGESCALEWIDTH" -eq 720 ]; then \
 	    tar xfp vendor/addons/prebuilt/bootanimation/bootanimation_720.tar -C $(INTERMEDIATES); \
-            echo "450 450 $(BOOTFPS)" > $(INTERMEDIATES)/desc.txt; \
+	    echo "720 720 $(BOOTFPS)" > $(INTERMEDIATES)/desc.txt; \
 	else \
-	    tar xfp vendor/addons/prebuilt/bootanimation/bootanimation.tar -C $(INTERMEDIATES); \
-            echo "450 450 $(BOOTFPS)" > $(INTERMEDIATES)/desc.txt; \
+	    tar xfp vendor/addons/prebuilt/bootanimation/bootanimation_1080.tar -C $(INTERMEDIATES); \
+	    echo "1080 1080 $(BOOTFPS)" > $(INTERMEDIATES)/desc.txt; \
 	fi; \
 	cat vendor/addons/prebuilt/bootanimation/desc.txt >> $(INTERMEDIATES)/desc.txt;
 	$(hide) $(SOONG_ZIP) -L 0 -o $(TARGET_GENERATED_BOOTANIMATION) -C $(INTERMEDIATES) -D $(INTERMEDIATES)
