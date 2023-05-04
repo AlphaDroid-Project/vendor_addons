@@ -17,6 +17,12 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/common
 
+# Bootanimation
+TARGET_SCREEN_WIDTH ?= 1080
+TARGET_SCREEN_HEIGHT ?= 1920
+PRODUCT_PACKAGES += \
+    bootanimation.zip
+
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons \
