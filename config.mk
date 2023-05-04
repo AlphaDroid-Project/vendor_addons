@@ -233,10 +233,6 @@ PRODUCT_PACKAGES += \
     ZigZagSignalOverlay \
     ZigZagWiFiOverlay
 
-# Hide cutout
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
-
 # UI styles
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay \
