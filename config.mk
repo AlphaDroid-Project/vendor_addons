@@ -236,6 +236,7 @@ PRODUCT_PACKAGES += \
     IconShapeFlowerOverlay \
     IconShapeHeartOverlay \
     IconShapeHexagonOverlay \
+    IconShapeIosOverlay \
     IconShapeLeafOverlay \
     IconShapeMeowOverlay \
     IconShapePebbleOverlay \
