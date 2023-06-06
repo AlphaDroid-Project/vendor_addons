@@ -402,23 +402,18 @@ PRODUCT_PACKAGES += \
 
 # Brightness slider styles
 PRODUCT_PACKAGES += \
-    BrightnessSliderFilledOverlay \
-    BrightnessSliderThinOverlay \
+    BrightnessSliderAcunOverlay \
+    BrightnessSliderBangOverlay \
     BrightnessSliderCyberpunkOverlay \
-    BrightnessSliderGradiantOverlay \
-    BrightnessSliderNeumorphOverlay \
-    BrightnessSliderOutlineOverlay \
-    BrightnessSliderShadedOverlay \
-    BrightnessSliderThinOutlineOverlay \
-    BrightnessSliderTranslucentOverlay \
+    BrightnessSliderFilledOverlay \
     BrightnessSliderLeafyOutlineOverlay \
     BrightnessSliderMinimalThumbOverlay \
-    BrightnessSliderOldSchoolThumbOverlay \
+    BrightnessSliderOutlineOverlay \
     BrightnessSliderRoundedClipOverlay \
-    BrightnessSliderThumbSliderOverlay \
-    BrightnessSliderLineOverlay \
-    BrightnessSliderLightyOverlay 
-    
+    BrightnessSliderShadedOverlay \
+    BrightnessSliderThinOverlay \
+    BrightnessSliderTranslucentOverlay
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
