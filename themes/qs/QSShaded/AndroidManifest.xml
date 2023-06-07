@@ -16,11 +16,11 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.system.qs.shaded"
+    package="com.android.systemui.qs_panel.shaded"
     android:allowBackup="false"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.qs_panel" android:priority="1"/>
 
-    <application android:label="Shaded QS-Panel" android:hasCode="false"/>
+    <application android:label="Shaded" android:hasCode="false"/>
 </manifest>
