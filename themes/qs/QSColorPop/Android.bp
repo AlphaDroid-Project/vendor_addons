@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSColorPopOverlay",
+    theme: "QSColorPop",
+    product_specific: true,
+}

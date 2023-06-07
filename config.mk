@@ -390,6 +390,7 @@ PRODUCT_PACKAGES += \
 
 # QS Panel
 PRODUCT_PACKAGES += \
+    QSColorPopOverlay \
     QSOutline \
     QSTwoToneAccent \
     QSTwoToneAccentTrans \
