@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFFadedOverlay",
+    theme: "NFFaded",
+    product_specific: true,
+}

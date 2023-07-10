@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFDuolineOverlay",
+    theme: "NFDuoline",
+    product_specific: true,
+}

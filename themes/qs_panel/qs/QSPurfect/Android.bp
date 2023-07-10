@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSPurfectOverlay",
+    theme: "QSPurfect",
+    product_specific: true,
+}

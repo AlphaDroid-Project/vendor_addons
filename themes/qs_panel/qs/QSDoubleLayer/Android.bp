@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSDoubleLayerOverlay",
+    theme: "QSDoubleLayer",
+    product_specific: true,
+}

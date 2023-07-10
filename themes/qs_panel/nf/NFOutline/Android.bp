@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFOutlineOverlay",
+    theme: "NFOutline",
+    product_specific: true,
+}

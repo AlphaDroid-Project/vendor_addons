@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center">
+        <shape android:tintMode="multiply">
+            <gradient
+                android:angle="0.0"
+                android:endColor="@android:color/system_neutral2_100"
+                android:startColor="@android:color/system_neutral2_200" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+            <size
+                android:width="48.0dip"
+                android:height="48.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center"
+        android:bottom="2.0dp"
+        android:end="2.0dp"
+        android:start="2.0dp"
+        android:top="2.0dp">
+        <shape android:tintMode="multiply">
+            <gradient
+                android:angle="270.0"
+                android:endColor="@android:color/system_neutral2_100"
+                android:startColor="@android:color/system_neutral2_200" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_right" />
+            <size
+                android:width="44.0dip"
+                android:height="44.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center"
+        android:bottom="4.0dp"
+        android:end="4.0dp"
+        android:start="4.0dp"
+        android:top="4.0dp">
+        <shape android:tintMode="multiply">
+            <gradient
+                android:angle="90.0"
+                android:endColor="#FFF0F0F0"
+                android:startColor="#FFD4D4D4" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_left" />
+            <size
+                android:width="40.0dip"
+                android:height="40.0dip" />
+        </shape>
+    </item>
+    <item android:id="@*android:id/progress"
+        android:gravity="fill_horizontal|center">
+        <com.android.systemui.util.RoundedCornerProgressDrawable android:drawable="@drawable/brightness_progress_full_drawable" />
+    </item>
+</layer-list>

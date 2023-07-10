@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBRoundedClipOverlay",
+    theme: "BBRoundedClip",
+    product_specific: true,
+}

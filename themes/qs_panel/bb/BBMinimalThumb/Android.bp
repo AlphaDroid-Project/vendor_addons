@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBMinimalThumbOverlay",
+    theme: "BBMinimalThumb",
+    product_specific: true,
+}

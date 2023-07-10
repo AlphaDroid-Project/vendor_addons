@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBNeumorphThumbOverlay",
+    theme: "BBNeumorphThumb",
+    product_specific: true,
+}

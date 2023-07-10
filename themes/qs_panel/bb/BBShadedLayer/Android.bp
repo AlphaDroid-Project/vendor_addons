@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBShadedLayerOverlay",
+    theme: "BBShadedLayer",
+    product_specific: true,
+}

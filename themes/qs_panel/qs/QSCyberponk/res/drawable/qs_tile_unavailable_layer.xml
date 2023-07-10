@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item
+                android:bottom="6dp"
+                android:top="6dp">
+                <shape>
+                    <solid android:color="@*android:color/qs_color_inactive" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                </shape>
+            </item>
+            <item
+                android:end="40dp"
+                android:top="6dp">
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
+                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                </shape>
+            </item>
+            <item
+                android:bottom="6dp"
+                android:start="40dp">
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
+                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                </shape>
+            </item>
+            <item
+                android:gravity="start|top"
+                android:start="22dp">
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
+                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <corners android:radius="20dp" />
+                    <size
+                        android:width="22dp"
+                        android:height="3dp" />
+                </shape>
+            </item>
+            <item
+                android:end="22dp"
+                android:gravity="end|bottom">
+                <shape
+                    android:shape="rectangle"
+                    android:tintMode="src_atop">
+                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_left" />
+                    <size
+                        android:width="22dp"
+                        android:height="3dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</layer-list>

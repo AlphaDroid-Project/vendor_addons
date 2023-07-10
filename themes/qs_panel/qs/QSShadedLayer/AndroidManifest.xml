@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.systemui.qs_style.shadedlayer"
+    android:allowBackup="false"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.qs_style" android:priority="1"/>
+
+    <application android:label="Shaded Layer" android:hasCode="false"/>
+ </manifest>

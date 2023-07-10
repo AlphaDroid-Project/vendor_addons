@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSCyberponkOverlay",
+    theme: "QSCyberponk",
+    product_specific: true,
+}

@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFNeumorphOutlineOverlay",
+    theme: "NFNeumorphOutline",
+    product_specific: true,
+}

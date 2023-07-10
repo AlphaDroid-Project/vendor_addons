@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBGradientThumbOverlay",
+    theme: "BBGradientThumb",
+    product_specific: true,
+}

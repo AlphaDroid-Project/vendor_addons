@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFPitchBlackOverlay",
+    theme: "NFPitchBlack",
+    product_specific: true,
+}

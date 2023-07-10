@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@*android:color/qs_color_inactive" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                </shape>
+            </item>
+            <item android:gravity="left|center">
+                <shape android:tintMode="src_atop">
+                    <gradient
+                        android:angle="0.0"
+                        android:endColor="@*android:color/qs_color_accent_secondary"
+                        android:startColor="@*android:color/qs_color_accent_primary" />
+                    <corners
+                        android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
+                        android:topLeftRadius="@*android:dimen/qs_corner_radius_top" />
+                    <size android:width="52.0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</layer-list>

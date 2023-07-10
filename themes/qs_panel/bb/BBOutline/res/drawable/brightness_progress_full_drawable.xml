@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@null"
+        android:gravity="fill_horizontal|center">
+        <shape android:shape="rectangle">
+            <stroke android:width="3.5dp"
+                    android:color="@*android:color/qs_color_accent_primary" />
+                <solid android:color="@*android:color/qs_color_accent_secondary" />
+                <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                <size
+                    android:height="48.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="fill_horizontal|center">
+        <shape android:tintMode="multiply">
+            <solid android:color="#26000000" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+            <size
+                android:height="48.0dip" />
+        </shape>
+    </item>
+</layer-list>
