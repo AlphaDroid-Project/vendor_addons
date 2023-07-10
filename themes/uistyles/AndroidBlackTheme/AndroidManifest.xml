@@ -21,5 +21,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="android" android:category="android.theme.customization.theme_style" android:priority="2"/>
 
-    <application android:label="Black Theme" android:hasCode="false"/>
+    <application android:label="Black Theme" android:hasCode="false" android:allowBackup="false"/>
 </manifest>

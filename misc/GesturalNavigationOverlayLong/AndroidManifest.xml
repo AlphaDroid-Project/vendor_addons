@@ -23,5 +23,5 @@
         android:category="android.customization.navbar_length"
         android:priority="1"/>
 
-    <application android:label="@string/navigation_bar_length_long" android:hasCode="false"/>
+    <application android:label="@string/navigation_bar_length_long" android:hasCode="false" android:allowBackup="false"/>
 </manifest>

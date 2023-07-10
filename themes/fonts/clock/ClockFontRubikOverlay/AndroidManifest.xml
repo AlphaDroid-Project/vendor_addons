@@ -24,7 +24,7 @@
         android:priority="1" />
 
     <application
-        android:hasCode="false"
+        android:hasCode="false" android:allowBackup="false"
         android:label="@string/font_rubik_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"

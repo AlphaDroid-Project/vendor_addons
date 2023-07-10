@@ -4,5 +4,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="com.android.settings" android:category="android.theme.customization.style.settings" android:priority="1"/>
 
-    <application android:label="Pacleggers" android:hasCode="false" android:icon="@mipmap/ic_launcher"/>
+    <application android:label="Pacleggers" android:hasCode="false" android:allowBackup="false" android:icon="@mipmap/ic_launcher"/>
 </manifest>

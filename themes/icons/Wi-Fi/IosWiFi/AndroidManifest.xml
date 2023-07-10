@@ -17,5 +17,5 @@
     package="com.custom.overlay.systemui.wifiios" android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android" android:category="android.theme.customization.wifi_icon" android:priority="1"/>
-    <application android:label="iOS" android:hasCode="false"/>
+    <application android:label="iOS" android:hasCode="false" android:allowBackup="false"/>
 </manifest>
