@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBPurfectOverlay",
+    theme: "BBPurfect",
+    product_specific: true,
+}

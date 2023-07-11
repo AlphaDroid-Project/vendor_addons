@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSBookmarkOverlay",
+    theme: "QSBookmark",
+    product_specific: true,
+}

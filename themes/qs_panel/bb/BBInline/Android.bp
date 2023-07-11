@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBInlineOverlay",
+    theme: "BBInline",
+    product_specific: true,
+}

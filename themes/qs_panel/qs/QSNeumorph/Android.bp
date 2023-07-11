@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSNeumorphOverlay",
+    theme: "QSNeumorph",
+    product_specific: true,
+}

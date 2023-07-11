@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFiOSOverlay",
+    theme: "NFiOS",
+    product_specific: true,
+}

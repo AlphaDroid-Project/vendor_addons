@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSTranslucentOutlineOverlay",
+    theme: "QSTranslucentOutline",
+    product_specific: true,
+}

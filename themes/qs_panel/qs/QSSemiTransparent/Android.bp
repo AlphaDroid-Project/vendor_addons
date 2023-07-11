@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSSemiTransparentOverlay",
+    theme: "QSSemiTransparent",
+    product_specific: true,
+}

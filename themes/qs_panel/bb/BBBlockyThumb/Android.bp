@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBBlockyThumbOverlay",
+    theme: "BBBlockyThumb",
+    product_specific: true,
+}

@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFStackOverlay",
+    theme: "NFStack",
+    product_specific: true,
+}

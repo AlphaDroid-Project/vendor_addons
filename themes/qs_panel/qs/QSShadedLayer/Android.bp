@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSShadedLayerOverlay",
+    theme: "QSShadedLayer",
+    product_specific: true,
+}

@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "NFCyberponkOverlay",
+    theme: "NFCyberponk",
+    product_specific: true,
+}

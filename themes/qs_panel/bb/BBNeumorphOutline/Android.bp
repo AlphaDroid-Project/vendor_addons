@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBNeumorphOutlineOverlay",
+    theme: "BBNeumorphOutline",
+    product_specific: true,
+}

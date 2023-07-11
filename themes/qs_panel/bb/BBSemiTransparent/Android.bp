@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "BBSemiTransparentOverlay",
+    theme: "BBSemiTransparent",
+    product_specific: true,
+}
