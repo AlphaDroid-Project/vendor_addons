@@ -2,15 +2,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:gravity="fill_horizontal|center">
         <shape android:tintMode="multiply">
-            <corners
-                android:bottomLeftRadius="14.0dp"
-                android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_top"
-                android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top"
-                android:topRightRadius="14.0dp" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/holo_green_light"
-                android:startColor="@*android:color/holo_blue_light" />
+                android:endColor="@*android:color/qs_color_accent_secondary"
+                android:startColor="@*android:color/qs_color_accent_primary" />
             <size
                 android:width="48.0dip"
                 android:height="48.0dip" />
@@ -21,11 +17,7 @@
         android:gravity="fill_horizontal|center"
         android:start="4.5dip">
         <shape android:tintMode="multiply">
-            <corners
-                android:bottomLeftRadius="10.0dp"
-                android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_left"
-                android:topLeftRadius="@*android:dimen/harmful_app_name_padding_left"
-                android:topRightRadius="10.0dp" />
+           <corners android:radius="@*android:dimen/qs_corner_radius_left" />
             <solid android:color="?android:colorBackgroundFloating" />
             <size
                 android:width="40.0dip"

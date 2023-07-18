@@ -11,7 +11,7 @@
         android:top="6dp">
         <shape android:shape="rectangle">
             <solid android:color="?android:attr/colorBackgroundFloating" />
-            <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
         </shape>
     </item>
     <item
@@ -19,7 +19,7 @@
         android:start="80dp">
         <shape android:shape="rectangle">
             <solid android:color="?android:attr/colorBackgroundFloating" />
-            <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
         </shape>
     </item>
     <item
@@ -28,9 +28,9 @@
         <shape android:shape="rectangle">
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/holo_green_light"
-                android:startColor="@*android:color/holo_blue_light" />
-            <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
+                android:endColor="@*android:color/qs_color_accent_secondary"
+                android:startColor="@*android:color/qs_color_accent_primary" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_left" />
             <size
                 android:width="30dp"
                 android:height="3dp" />
@@ -42,9 +42,9 @@
         <shape android:shape="rectangle">
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/holo_green_light"
-                android:startColor="@*android:color/holo_blue_light" />
-            <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
+                android:endColor="@*android:color/qs_color_accent_secondary"
+                android:startColor="@*android:color/qs_color_accent_primary" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_left" />
             <size
                 android:width="30dp"
                 android:height="3dp" />

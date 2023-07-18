@@ -8,7 +8,7 @@
                         android:angle="315.0"
                         android:endColor="?android:colorSecondary"
                         android:startColor="?android:colorPrimary" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
             <item
@@ -21,7 +21,7 @@
                         android:angle="0.0"
                         android:endColor="#B3FFFFFF"
                         android:startColor="#99FFFFFF" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_right" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_right" />
                 </shape>
             </item>
         </layer-list>
@@ -32,7 +32,7 @@
                 android:angle="315.0"
                 android:endColor="?android:colorSecondary"
                 android:startColor="?android:colorPrimary" />
-            <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
         </shape>
     </item>
 </layer-list>

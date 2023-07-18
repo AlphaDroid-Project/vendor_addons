@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "NFDefaultOverlay",
-    theme: "NFDefault",
-    product_specific: true,
-}

@@ -5,5 +5,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.qs_style" android:priority="1"/>
 
-    <application android:label="DoubleLayer" android:hasCode="false"/>
+    <application android:label="Double Layer" android:hasCode="false"/>
  </manifest>

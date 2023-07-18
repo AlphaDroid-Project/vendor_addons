@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "NFSemiTransparentOverlay",
-    theme: "NFSemiTransparent",
-    product_specific: true,
-}

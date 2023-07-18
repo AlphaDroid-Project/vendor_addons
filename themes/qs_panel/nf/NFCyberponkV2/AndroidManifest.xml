@@ -5,5 +5,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.nf_style" android:priority="1"/>
 
-    <application android:label="CyberponkV2" android:hasCode="false"/>
+    <application android:label="Cyberponk v2" android:hasCode="false"/>
  </manifest>

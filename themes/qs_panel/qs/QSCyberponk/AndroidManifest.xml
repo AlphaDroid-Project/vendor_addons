@@ -6,4 +6,4 @@
     <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.qs_style" android:priority="1"/>
 
     <application android:label="Cyberponk" android:hasCode="false"/>
- </manifest>
+</manifest>

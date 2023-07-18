@@ -4,22 +4,22 @@
         <layer-list>
             <item>
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_800" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                    <solid android:color="@android:color/system_neutral2_800" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
             <item>
                 <shape android:tintMode="src_atop">
                     <solid android:color="#1A000000" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
             <item android:gravity="left|center">
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@*android:color/system_neutral2_800" />
+                    <solid android:color="@android:color/system_neutral2_800" />
                     <corners
-                        android:bottomLeftRadius="@*android:dimen/harmful_app_name_padding_top"
-                        android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top" />
+                        android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
+                        android:topLeftRadius="@*android:dimen/qs_corner_radius_top" />
                     <size android:width="52.0dp" />
                 </shape>
             </item>
@@ -30,16 +30,16 @@
             <item>
                 <shape android:tintMode="multiply">
                     <solid android:color="?android:colorSecondary" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
             <item android:gravity="left|center">
                 <shape android:tintMode="multiply">
                     <solid android:color="?android:colorPrimary" />
                     <corners
-                        android:bottomLeftRadius="@*android:dimen/harmful_app_name_padding_top"
-                        android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top" />
                     <size android:width="52.0dp" />
+                        android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
+                        android:topLeftRadius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
         </layer-list>

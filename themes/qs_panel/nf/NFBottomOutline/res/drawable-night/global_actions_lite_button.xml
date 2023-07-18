@@ -5,8 +5,8 @@
         <shape android:shape="oval">
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/holo_green_light"
-                android:startColor="@*android:color/holo_blue_light" />
+                android:endColor="@*android:color/qs_color_accent_secondary"
+                android:startColor="@*android:color/qs_color_accent_primary" />
         </shape>
     </item>
     <item
@@ -15,7 +15,7 @@
         android:start="2dp"
         android:top="2dp">
         <shape android:shape="oval">
-            <solid android:color="@*android:color/system_neutral2_800" />
+            <solid android:color="@android:color/system_neutral2_800" />
         </shape>
     </item>
 </ripple>

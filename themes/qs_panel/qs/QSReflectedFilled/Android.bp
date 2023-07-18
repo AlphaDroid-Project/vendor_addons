@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSReflectedFilledOverlay",
+    theme: "QSReflectedFilled",
+    product_specific: true,
+}

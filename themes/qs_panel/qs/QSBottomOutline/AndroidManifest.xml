@@ -5,5 +5,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.qs_style" android:priority="1"/>
 
-    <application android:label="BottomOutline" android:hasCode="false"/>
- </manifest>
+    <application android:label="Bottom Outline" android:hasCode="false"/>
+</manifest>

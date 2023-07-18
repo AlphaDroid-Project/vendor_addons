@@ -5,5 +5,5 @@
     android:versionName="1.0">
     <overlay android:targetPackage="com.android.systemui" android:category="android.theme.customization.bb_style" android:priority="1"/>
 
-    <application android:label="CommetThumb" android:hasCode="false"/>
+    <application android:label="Commet Thumb" android:hasCode="false"/>
  </manifest>

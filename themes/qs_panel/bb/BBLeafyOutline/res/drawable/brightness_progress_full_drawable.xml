@@ -6,14 +6,14 @@
         <shape android:shape="rectangle">
             <corners
                 android:bottomLeftRadius="14.0dp"
-                android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_top"
-                android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top"
+                android:bottomRightRadius="50dp"
+                android:topLeftRadius="50dp"
                 android:topRightRadius="14.0dp" />
             <size android:height="48.0dip" />
             <gradient
                 android:angle="0.0"
-                android:endColor="@*android:color/holo_green_light"
-                android:startColor="@*android:color/holo_blue_light" />
+                android:endColor="@*android:color/qs_color_accent_secondary"
+                android:startColor="@*android:color/qs_color_accent_primary" />
         </shape>
     </item>
     <item
@@ -23,8 +23,8 @@
         <shape android:shape="rectangle">
             <corners
                 android:bottomLeftRadius="10.0dp"
-                android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_left"
-                android:topLeftRadius="@*android:dimen/harmful_app_name_padding_left"
+                android:bottomRightRadius="46dp"
+                android:topLeftRadius="46dp"
                 android:topRightRadius="10.0dp" />
             <size android:height="40.0dip" />
             <solid android:color="?android:colorBackgroundFloating" />

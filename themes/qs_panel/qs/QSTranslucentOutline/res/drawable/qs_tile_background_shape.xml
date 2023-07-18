@@ -4,8 +4,8 @@
         <layer-list>
             <item>
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@drawable/color_background_alpha" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                    <solid android:color="@*android:drawable/color_background_alpha" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
             <item
@@ -18,7 +18,7 @@
                         android:angle="0.0"
                         android:endColor="#4DFFFFFF"
                         android:startColor="#4DFFFFFF" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                 </shape>
             </item>
         </layer-list>
@@ -29,9 +29,9 @@
                 <shape android:tintMode="multiply">
                     <gradient
                         android:angle="315.0"
-                        android:endColor="@drawable/holo_green_light_alpha"
-                        android:startColor="@drawable/holo_blue_light_alpha" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_top" />
+                        android:endColor="@*android:drawable/color_accent_secondary_alpha"
+                        android:startColor="@*android:drawable/color_accent_primary_alpha" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
             <item
@@ -44,7 +44,7 @@
                         android:angle="0.0"
                         android:endColor="#4DFFFFFF"
                         android:startColor="#4DFFFFFF" />
-                    <corners android:radius="@*android:dimen/harmful_app_name_padding_left" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                 </shape>
             </item>
         </layer-list>
