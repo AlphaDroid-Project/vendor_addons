@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_device_default">@*android:color/qs_color_accent_primary</color>
+    <color name="accent_device_default_dark">@*android:color/qs_color_accent_primary</color>
+    <color name="accent_device_default_light">@*android:color/qs_color_accent_primary</color>
+    <color name="accent_material_dark">@*android:color/qs_color_accent_primary</color>
+    <color name="accent_material_light">@*android:color/qs_color_accent_primary</color>
+    <color name="accent_primary_device_default">@*android:color/qs_color_accent_primary</color>
+    <color name="qs_color_accent_primary">@android:color/system_accent1_400</color>
+    <color name="qs_color_accent_secondary">@android:color/system_accent1_200</color>
+</resources>
