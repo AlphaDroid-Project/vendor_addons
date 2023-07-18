@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "QSFluidNeutralOverlay",
+    theme: "QSFluidNeutral",
+    product_specific: true,
+}

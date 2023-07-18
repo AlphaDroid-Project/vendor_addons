@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "BBTranslucentOutlineOverlay",
-    theme: "BBTranslucentOutline",
-    product_specific: true,
-}
