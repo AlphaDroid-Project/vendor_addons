@@ -3,7 +3,7 @@
     <shape>
         <solid android:color="@*android:color/transparent" />
         <corners
-            android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top"
-            android:topRightRadius="@*android:dimen/harmful_app_name_padding_top" />
+            android:topLeftRadius="50dp"
+            android:topRightRadius="50dp" />
     </shape>
 </inset>

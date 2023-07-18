@@ -8,8 +8,8 @@
                 <solid android:color="#00000000" />
                 <corners
                     android:bottomLeftRadius="14.0dp"
-                    android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_top"
-                    android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top"
+                    android:bottomRightRadius="50dp"
+                    android:topLeftRadius="50dp"
                     android:topRightRadius="14.0dp" />
             </shape>
         </item>
@@ -17,8 +17,8 @@
             <shape android:shape="rectangle">
                 <corners
                     android:bottomLeftRadius="14.0dp"
-                    android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_top"
-                    android:topLeftRadius="@*android:dimen/harmful_app_name_padding_top"
+                    android:bottomRightRadius="50dp"
+                    android:topLeftRadius="50dp"
                     android:topRightRadius="14.0dp" />
                 <solid android:color="#1AFFFFFF" />
             </shape>
@@ -31,8 +31,8 @@
             <shape android:shape="rectangle">
                 <corners
                     android:bottomLeftRadius="10.0dp"
-                    android:bottomRightRadius="@*android:dimen/harmful_app_name_padding_left"
-                    android:topLeftRadius="@*android:dimen/harmful_app_name_padding_left"
+                    android:bottomRightRadius="46dp"
+                    android:topLeftRadius="46dp"
                     android:topRightRadius="10.0dp" />
                 <solid android:color="?android:colorBackgroundFloating" />
             </shape>
