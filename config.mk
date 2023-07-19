@@ -451,8 +451,6 @@ PRODUCT_PACKAGES += \
     QSNeumorphOverlay \
     QSOutlineOverlay \
     QSPurfectOverlay \
-    QSReflectedFilledOverlay \
-    QSReflectedOverlay \
     QSShadedLayerOverlay \
     QSSurroundOverlay \
     QSThinOutlineOverlay

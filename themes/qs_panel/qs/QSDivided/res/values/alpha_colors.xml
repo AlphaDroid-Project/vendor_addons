@@ -22,5 +22,5 @@
     <color name="qs_color_text_unavailable">@android:color/system_neutral2_400</color>
     <color name="qs_color_icon_active">@android:color/system_neutral1_10</color>
     <color name="qs_color_icon_inactive">@android:color/system_neutral1_10</color>
-    <color name="qs_color_icon_unavailable">@android:color/system_neutral2_400</color>
+    <color name="qs_color_icon_unavailable">@android:color/system_neutral2_200</color>
 </resources>
