@@ -1,5 +1,0 @@
-runtime_resource_overlay {
-    name: "QSDefaultOverlay",
-    theme: "QSDefault",
-    product_specific: true,
-}
