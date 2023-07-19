@@ -12,9 +12,8 @@
                 <shape android:tintMode="src_atop">
                     <gradient
                         android:angle="90.0"
-                        android:centerColor="#00000000"
-                        android:endColor="#00000000"
-                        android:startColor="#1A000000" />
+                        android:endColor="#FFF0F0F0"
+                        android:startColor="#FFD4D4D4" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
@@ -36,9 +35,8 @@
                 <shape android:tintMode="src_atop">
                     <gradient
                         android:angle="270.0"
-                        android:centerColor="#00000000"
-                        android:endColor="#00000000"
-                        android:startColor="#1A000000" />
+                        android:endColor="#FFF0F0F0"
+                        android:startColor="#FFD4D4D4" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                 </shape>
             </item>
@@ -50,8 +48,8 @@
                 <shape android:tintMode="multiply">
                     <gradient
                         android:angle="90.0"
-                        android:endColor="?android:colorSecondary"
-                        android:startColor="?android:colorPrimary" />
+                        android:endColor="#FFF0F0F0"
+                        android:startColor="#FFD4D4D4" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
@@ -63,8 +61,8 @@
                 <shape android:tintMode="multiply">
                     <gradient
                         android:angle="270.0"
-                        android:endColor="?android:colorSecondary"
-                        android:startColor="?android:colorPrimary" />
+                        android:endColor="#FFF0F0F0"
+                        android:startColor="#FFD4D4D4" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                 </shape>
             </item>

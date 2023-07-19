@@ -31,7 +31,7 @@
             </item>
             <item android:gravity="left|center">
                 <shape android:tintMode="src_atop">
-                    <solid android:color="#1A000000" />
+                    <solid android:color="#40000000" />
                     <corners
                         android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
                         android:topLeftRadius="@*android:dimen/qs_corner_radius_top" />
@@ -43,11 +43,11 @@
     <item>
         <layer-list>
             <item>
-                <shape android:tintMode="multiply">
+                <shape android:tintMode="src_atop">
                     <gradient
                         android:angle="0.0"
-                        android:endColor="?android:colorSecondary"
-                        android:startColor="?android:colorPrimary" />
+                        android:endColor="@android:color/system_accent1_50"
+                        android:startColor="@*android:color/qs_color_accent_secondary" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
@@ -64,11 +64,11 @@
                 android:gravity="left|center"
                 android:start="42.0dp"></item>
             <item android:gravity="left|center">
-                <shape android:tintMode="multiply">
+                <shape android:tintMode="src_atop">
                     <gradient
                         android:angle="0.0"
-                        android:endColor="?android:colorSecondary"
-                        android:startColor="?android:colorPrimary" />
+                        android:endColor="@*android:color/qs_color_accent_secondary"
+                        android:startColor="@*android:color/qs_color_accent_primary" />
                     <corners
                         android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
                         android:topLeftRadius="@*android:dimen/qs_corner_radius_top" />
@@ -77,7 +77,7 @@
             </item>
             <item android:gravity="left|center">
                 <shape android:tintMode="multiply">
-                    <solid android:color="#1A000000" />
+                    <solid android:color="#4D000000" />
                     <corners
                         android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
                         android:topLeftRadius="@*android:dimen/qs_corner_radius_top" />
