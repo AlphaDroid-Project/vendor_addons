@@ -8,11 +8,11 @@
                 <shape android:shape="rectangle">
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                     <size android:height="48.0dip" />
-                    <solid android:color="@android:color/system_neutral2_800" />
+                    <solid android:color="@*android:color/qs_color_inactive" />
                 </shape>
             </item>
             <item android:gravity="fill_horizontal|center">
-                <shape android:shape="rectangle">
+                <shape android:tintMode="src_atop">
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                     <size android:height="48.0dip" />
                     <gradient
@@ -29,16 +29,16 @@
                 <shape android:shape="rectangle">
                     <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                     <size android:height="40.0dip" />
-                    <solid android:color="@android:color/system_neutral2_800" />
+                    <solid android:color="@*android:color/qs_color_inactive" />
                 </shape>
             </item>
             <item
                 android:end="4.5dip"
                 android:gravity="fill_horizontal|center"
                 android:start="4.5dip">
-                <shape android:shape="rectangle">
-                    <corners android:radius="@*android:dimen/qs_corner_radius_left" />
+                <shape android:tintMode="src_atop">
                     <size android:height="40.0dip" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                     <gradient
                         android:angle="270.0"
                         android:centerColor="#00000000"

@@ -27,7 +27,7 @@
                 android:topLeftRadius="46dp"
                 android:topRightRadius="10.0dp" />
             <size android:height="40.0dip" />
-            <solid android:color="?android:colorBackgroundFloating" />
+            <solid android:color="@*android:color/qs_color_inactive" />
         </shape>
     </item>
 </layer-list>

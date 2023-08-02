@@ -12,8 +12,8 @@
             <shape android:tintMode="multiply">
                 <gradient
                     android:angle="0.0"
-                    android:endColor="?android:colorSecondary"
-                    android:startColor="?android:colorPrimary" />
+                    android:endColor="@*android:color/qs_color_accent_secondary"
+                    android:startColor="@*android:color/qs_color_accent_primary" />
                 <corners android:radius="@*android:dimen/qs_corner_radius_top" />
             </shape>
         </item>
@@ -25,8 +25,8 @@
             <shape android:tintMode="multiply">
                 <gradient
                     android:angle="270.0"
-                    android:endColor="#FFF0F0F0"
-                    android:startColor="#FFBDBDBD" />
+                    android:endColor="@*android:color/qs_color_accent_secondary"
+                    android:startColor="@*android:color/qs_color_accent_primary" />
                 <corners android:radius="@*android:dimen/qs_corner_radius_right" />
             </shape>
         </item>
@@ -39,7 +39,7 @@
                 <gradient
                     android:angle="90.0"
                     android:endColor="#FFF0F0F0"
-                    android:startColor="#FFBDBDBD" />
+                    android:startColor="#FFD4D4D4" />
                 <corners android:radius="@*android:dimen/qs_corner_radius_left" />
             </shape>
         </item>

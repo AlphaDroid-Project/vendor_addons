@@ -26,7 +26,7 @@
             </item>
         </layer-list>
     </item>
-    <item>
+    <item android:id="@*android:id/qs_state_layer">
         <layer-list>
             <item>
                 <shape android:tintMode="multiply">

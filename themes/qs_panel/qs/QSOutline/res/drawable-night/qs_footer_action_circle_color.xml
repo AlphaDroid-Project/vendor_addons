@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:inset="4dp">
+       android:inset="4dp">
     <ripple android:color="?android:colorControlHighlight">
         <item android:id="@*android:id/mask">
             <shape android:shape="rectangle">
@@ -10,21 +10,16 @@
         </item>
         <item>
             <shape>
+                <stroke android:width="3.5dp"
+                        android:color="@*android:color/qs_color_accent_primary" />
                 <corners android:radius="@*android:dimen/qs_corner_radius_top" />
-                <gradient
-                    android:angle="0.0"
-                    android:endColor="@*android:color/qs_color_accent_secondary"
-                    android:startColor="@*android:color/qs_color_accent_primary" />
+                <solid android:color="@*android:color/qs_color_accent_secondary" />
             </shape>
         </item>
-        <item
-            android:bottom="4.0dp"
-            android:end="4.0dp"
-            android:start="4.0dp"
-            android:top="4.0dp">
-            <shape>
-                <corners android:radius="@*android:dimen/qs_corner_radius_left" />
-                <solid android:color="?android:colorBackgroundFloating" />
+        <item>
+            <shape android:tintMode="multiply">
+                <solid android:color="#40000000" />
+                <corners android:radius="@*android:dimen/qs_corner_radius_top" />
             </shape>
         </item>
     </ripple>

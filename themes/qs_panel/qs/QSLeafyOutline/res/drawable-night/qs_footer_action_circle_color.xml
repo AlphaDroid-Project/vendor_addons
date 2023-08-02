@@ -24,7 +24,7 @@
             android:top="4.0dp">
             <shape>
                 <corners android:radius="@*android:dimen/qs_corner_radius_left" />
-                <solid android:color="?android:colorBackgroundFloating" />
+                <solid android:color="@*android:color/qs_color_inactive" />
             </shape>
         </item>
     </ripple>

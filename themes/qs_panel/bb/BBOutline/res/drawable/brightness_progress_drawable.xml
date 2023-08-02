@@ -6,19 +6,18 @@
         <layer-list>
             <item android:gravity="fill_horizontal|center">
                 <shape android:shape="rectangle">
+                    <stroke android:width="3.5dp"
+                            android:color="@android:color/system_neutral2_400" />
+                    <solid android:color="@*android:color/qs_color_inactive" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                     <size android:height="48.0dip" />
-                    <solid android:color="#1A000000" />
                 </shape>
             </item>
-            <item
-                android:end="4.5dip"
-                android:gravity="fill_horizontal|center"
-                android:start="4.5dip">
-                <shape android:shape="rectangle">
-                    <corners android:radius="@*android:dimen/qs_corner_radius_left" />
-                    <size android:height="40.0dip" />
-                    <solid android:color="?android:colorBackgroundFloating" />
+            <item android:gravity="fill_horizontal|center">
+                <shape android:tintMode="multiply">
+                    <solid android:color="#26000000" />
+                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                    <size android:height="48.0dip" />
                 </shape>
             </item>
         </layer-list>

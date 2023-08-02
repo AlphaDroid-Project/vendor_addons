@@ -20,7 +20,7 @@
                     android:bottomRightRadius="50dp"
                     android:topLeftRadius="50dp"
                     android:topRightRadius="14.0dp" />
-                <solid android:color="@android:color/system_neutral2_10" />
+                <solid android:color="#1A000000" />
             </shape>
         </item>
         <item
@@ -34,7 +34,7 @@
                     android:bottomRightRadius="46dp"
                     android:topLeftRadius="46dp"
                     android:topRightRadius="10.0dp" />
-                <solid android:color="?android:colorBackgroundFloating" />
+                <solid android:color="@*android:color/qs_color_inactive" />
             </shape>
         </item>
     </ripple>

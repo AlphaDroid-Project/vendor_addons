@@ -12,18 +12,7 @@
                         android:topLeftRadius="50dp"
                         android:topRightRadius="14.0dp" />
                     <size android:height="48.0dip" />
-                    <solid android:color="@android:color/system_neutral2_800" />
-                </shape>
-            </item>
-            <item android:gravity="fill_horizontal|center">
-                <shape android:shape="rectangle">
-                    <corners
-                        android:bottomLeftRadius="14.0dp"
-                        android:bottomRightRadius="50dp"
-                        android:topLeftRadius="50dp"
-                        android:topRightRadius="14.0dp" />
-                    <size android:height="48.0dip" />
-                    <solid android:color="#1AFFFFFF" />
+                    <solid android:color="#66FFFFFF" />
                 </shape>
             </item>
             <item
@@ -37,7 +26,7 @@
                         android:topLeftRadius="46dp"
                         android:topRightRadius="10.0dp" />
                     <size android:height="40.0dip" />
-                    <solid android:color="?android:colorBackgroundFloating" />
+                    <solid android:color="@*android:color/qs_color_inactive" />
                 </shape>
             </item>
         </layer-list>

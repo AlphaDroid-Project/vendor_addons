@@ -20,7 +20,7 @@
         android:bottom="5dp"
         android:top="5dp">
         <shape android:shape="rectangle">
-            <solid android:color="@android:color/system_neutral2_800" />
+            <solid android:color="@*android:color/qs_color_inactive" />
             <corners
                 android:bottomLeftRadius="@*android:dimen/qs_corner_radius_top"
                 android:bottomRightRadius="@*android:dimen/qs_corner_radius_top"

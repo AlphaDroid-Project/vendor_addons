@@ -19,20 +19,20 @@
         android:bottom="4.0dp"
         android:top="4.0dp">
         <shape android:shape="rectangle">
-            <solid android:color="@android:color/system_neutral2_800" />
+            <solid android:color="@*android:color/qs_color_inactive" />
             <corners android:radius="@*android:dimen/qs_corner_radius_top" />
         </shape>
     </item>
     <item android:gravity="start|center">
         <shape android:shape="rectangle">
-            <solid android:color="@android:color/system_neutral2_800" />
+            <solid android:color="@*android:color/qs_color_inactive" />
             <corners android:radius="@*android:dimen/qs_corner_radius_right" />
             <size android:width="120dp" />
         </shape>
     </item>
     <item android:gravity="end|center">
         <shape android:shape="rectangle">
-            <solid android:color="@android:color/system_neutral2_800" />
+            <solid android:color="@*android:color/qs_color_inactive" />
             <corners android:radius="@*android:dimen/qs_corner_radius_right" />
             <size android:width="120dp" />
         </shape>

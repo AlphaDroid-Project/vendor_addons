@@ -15,11 +15,10 @@
      limitations under the License.
 -->
 <resources>
-    <color name="qs_color_button_power">@android:color/system_neutral1_10</color>
-    <color name="qs_color_button_settings">@android:color/system_neutral1_10</color>
-    <color name="qs_color_text_active">@android:color/system_neutral1_10</color>
-    <color name="qs_color_text_inactive">@android:color/system_neutral1_10</color>
-    <color name="qs_color_icon_active">@android:color/system_neutral1_10</color>
-    <color name="qs_color_icon_inactive">@android:color/system_neutral1_10</color>
-    <color name="qs_color_accent_custom">@android:color/system_accent1_700</color>
+    <color name="qs_color_button_power">@*android:color/qs_color_accent_primary</color>
+    <color name="qs_color_button_settings">@android:color/system_neutral2_10</color>
+    <color name="qs_color_text_active">@*android:color/qs_color_accent_primary</color>
+    <color name="qs_color_text_inactive">@android:color/system_neutral2_10</color>
+    <color name="qs_color_icon_active">@*android:color/qs_color_accent_primary</color>
+    <color name="qs_color_icon_inactive">@android:color/system_neutral2_10</color>
 </resources>

@@ -11,23 +11,17 @@
         <item>
             <shape>
                 <corners android:radius="@*android:dimen/qs_corner_radius_top" />
-                <gradient
-                    android:angle="315.0"
-                    android:endColor="@*android:drawable/color_accent_secondary_alpha"
-                    android:startColor="@*android:drawable/color_accent_primary_alpha" />
+                <solid android:color="@*android:drawable/color_accent_primary_alpha" />
             </shape>
         </item>
         <item
-            android:bottom="4.0dp"
-            android:end="4.0dp"
-            android:start="4.0dp"
-            android:top="4.0dp">
+            android:bottom="4.0dip"
+            android:end="4.0dip"
+            android:start="4.0dip"
+            android:top="4.0dip">
             <shape>
                 <corners android:radius="@*android:dimen/qs_corner_radius_left" />
-                <gradient
-                    android:angle="0.0"
-                    android:endColor="#4D000000"
-                    android:startColor="#4D000000" />
+                <solid android:color="#4D000000" />
             </shape>
         </item>
     </ripple>

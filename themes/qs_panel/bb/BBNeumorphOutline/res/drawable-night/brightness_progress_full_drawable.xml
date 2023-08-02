@@ -13,9 +13,9 @@
         </shape>
     </item>
     <item
-        android:end="2.5dp"
+        android:end="2.0dip"
         android:gravity="fill_horizontal|center"
-        android:start="2.5dp">
+        android:start="2.0dip">
         <shape android:shape="rectangle">
             <corners android:radius="@*android:dimen/qs_corner_radius_right" />
             <size android:height="44.0dip" />
@@ -26,9 +26,9 @@
         </shape>
     </item>
     <item
-        android:end="4.5dip"
+        android:end="4.0dip"
         android:gravity="fill_horizontal|center"
-        android:start="4.5dip">
+        android:start="4.0dip">
         <shape android:shape="rectangle">
             <corners android:radius="@*android:dimen/qs_corner_radius_left" />
             <size android:height="40.0dip" />

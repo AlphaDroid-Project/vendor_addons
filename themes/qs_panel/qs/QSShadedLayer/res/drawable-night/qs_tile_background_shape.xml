@@ -4,7 +4,7 @@
         <layer-list>
             <item>
                 <shape android:tintMode="src_atop">
-                    <solid android:color="@android:color/system_neutral2_800" />
+                    <solid android:color="@*android:color/system_neutral2_10" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
@@ -24,14 +24,14 @@
             </item>
         </layer-list>
     </item>
-    <item>
+    <item android:id="@*android:id/qs_state_layer">
         <layer-list>
             <item>
                 <shape android:tintMode="multiply">
                     <gradient
                         android:angle="0.0"
-                        android:endColor="@*android:color/qs_color_accent_secondary"
-                        android:startColor="@*android:color/qs_color_accent_primary" />
+                        android:endColor="?android:colorSecondary"
+                        android:startColor="?android:colorPrimary" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>

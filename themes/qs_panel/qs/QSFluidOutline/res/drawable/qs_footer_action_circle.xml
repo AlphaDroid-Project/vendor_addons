@@ -11,14 +11,14 @@
         <item>
             <shape android:shape="rectangle">
                 <corners android:radius="@*android:dimen/qs_corner_radius_top" />
-                <solid android:color="@*android:drawable/color_background_alpha" />
+                <solid android:color="#1A000000" />
             </shape>
         </item>
         <item
-            android:bottom="4.0dp"
-            android:end="4.0dp"
-            android:start="4.0dp"
-            android:top="4.0dp">
+            android:bottom="4.0dip"
+            android:end="4.0dip"
+            android:start="4.0dip"
+            android:top="4.0dip">
             <shape android:shape="rectangle">
                 <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                 <gradient

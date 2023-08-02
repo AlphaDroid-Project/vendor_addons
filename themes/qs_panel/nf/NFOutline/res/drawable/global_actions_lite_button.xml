@@ -2,20 +2,17 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="?android:colorControlHighlight">
     <item>
-        <shape android:shape="oval">
-            <gradient
-                android:angle="0.0"
-                android:endColor="@*android:color/qs_color_accent_secondary"
-                android:startColor="@*android:color/qs_color_accent_primary" />
+        <shape android:shape="rectangle">
+            <stroke android:width="3.5dp"
+                    android:color="@*android:color/qs_color_accent_primary" />
+                <solid android:color="@*android:color/qs_color_accent_secondary" />
+                <corners android:radius="@*android:dimen/qs_corner_radius_top" />
         </shape>
     </item>
-    <item
-        android:bottom="4dp"
-        android:end="4dp"
-        android:start="4dp"
-        android:top="4dp">
-        <shape android:shape="oval">
-            <solid android:color="?android:attr/colorBackgroundFloating" />
+    <item>
+        <shape android:tintMode="multiply">
+            <solid android:color="#26000000" />
+            <corners android:radius="@*android:dimen/qs_corner_radius_top" />
         </shape>
     </item>
 </ripple>
