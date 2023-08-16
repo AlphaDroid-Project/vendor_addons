@@ -3,20 +3,12 @@
     <item>
         <layer-list>
             <item
-                android:bottom="6dp"
-                android:top="6dp">
-                <shape>
-                    <solid android:color="@*android:color/qs_color_inactive" />
-                    <corners android:radius="@*android:dimen/qs_corner_radius_top" />
-                </shape>
-            </item>
-            <item
                 android:end="40dp"
                 android:top="6dp">
                 <shape
                     android:shape="rectangle"
                     android:tintMode="src_atop">
-                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <solid android:color="@*android:color/qs_color_accent_primary" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
                 </shape>
             </item>
@@ -26,8 +18,19 @@
                 <shape
                     android:shape="rectangle"
                     android:tintMode="src_atop">
-                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <solid android:color="@*android:color/qs_color_accent_secondary" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_top" />
+                </shape>
+            </item>
+            <item
+                android:bottom="6dp"
+                android:top="6dp">
+                <shape android:tintMode="src_atop">
+                    <gradient
+                        android:angle="90.0"
+                        android:endColor="@*android:color/qs_color_accent_secondary"
+                        android:startColor="@*android:color/qs_color_accent_primary" />
+                    <corners android:radius="20dp" />
                 </shape>
             </item>
             <item
@@ -36,7 +39,7 @@
                 <shape
                     android:shape="rectangle"
                     android:tintMode="src_atop">
-                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <solid android:color="@*android:color/qs_color_accent_primary" />
                     <corners android:radius="20dp" />
                     <size
                         android:width="22dp"
@@ -49,7 +52,7 @@
                 <shape
                     android:shape="rectangle"
                     android:tintMode="src_atop">
-                    <solid android:color="@*android:drawable/color_unavailable" />
+                    <solid android:color="@*android:color/qs_color_accent_primary" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_left" />
                     <size
                         android:width="22dp"
