@@ -210,7 +210,15 @@ PRODUCT_PACKAGES += \
     IconPackOutlineSettingsOverlay \
     IconPackOutlineSystemUIOverlay \
     IconPackAcherusAndroidOverlay \
-    IconPackAcherusSystemUIOverlay
+    IconPackAcherusSystemUIOverlay \
+    IconPackAuroraAndroidOverlay \
+    IconPackAuroraSystemUIOverlay \
+    IconPackGradiconAndroidOverlay \
+    IconPackGradiconSystemUIOverlay \
+    IconPackLornAndroidOverlay \
+    IconPackLornSystemUIOverlay \
+    IconPackPlumpySystemUIOverlay \
+    IconPackPlumpyAndroidOverlay
 
 # Icon Shapes
 PRODUCT_PACKAGES += \
@@ -359,6 +367,22 @@ PRODUCT_PACKAGES += \
     XperiaWiFiOverlay \
     ZigZagWiFiOverlay
 
+# Data icons
+PRODUCT_PACKAGES += \
+    AuroraDataOverlay \
+    FaintUIDataOverlay \
+    GradiconDataOverlay \
+    LornDataOverlay \
+    PlumpyDataOverlay
+
+# Icon Data
+PRODUCT_PACKAGES += \
+    IconDataFive \
+    IconDataFour \
+    IconDataOne \
+    IconDataThree \
+    IconDataTwo
+    
 # Themes
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
