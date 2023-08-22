@@ -193,7 +193,6 @@ PRODUCT_PACKAGES += \
     IconPackFilledThemePickerOverlay \
     IconPackPUIAndroidOverlay \
     IconPackPUILauncherOverlay \
-    IconPackPUISettingsOverlay \
     IconPackPUISystemUIOverlay \
     IconPackPUIThemePickerOverlay \
     IconPackRoundedAndroidOverlay \
