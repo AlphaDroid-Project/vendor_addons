@@ -12,8 +12,8 @@
                 <shape android:tintMode="multiply">
                     <gradient
                         android:angle="45"
-                        android:endColor="?android:colorSecondary"
-                        android:startColor="?android:colorPrimary" />
+                        android:endColor="@*android:color/accent_device_default"
+                        android:startColor="@*android:color/bootleg_accent_gradient_end_color" />
                     <corners android:radius="24dp" />
                 </shape>
             </item>
