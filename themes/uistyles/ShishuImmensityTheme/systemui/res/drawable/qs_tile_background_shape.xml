@@ -11,8 +11,8 @@
             <gradient
                 android:type="radial"
                 android:gradientRadius="200%p"
-                android:endColor="?android:colorSecondary"
-                android:startColor="?android:colorPrimary"
+                android:endColor="@*android:color/accent_device_default"
+                android:startColor="@*android:color/bootleg_accent_gradient_end_color"
                 android:centerX="0.5"
                 android:centerY="1.0" />
             <corners android:radius="24dp" />
