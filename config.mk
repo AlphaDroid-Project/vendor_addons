@@ -349,16 +349,12 @@ PRODUCT_PACKAGES += \
     UnmonetThemeSystemUIOverlay \
     ShishuIllusionsThemeAndroidOverlay \
     ShishuIllusionsThemeSettingsOverlay \
-    ShishuIllusionsThemeSystemUIOverlay \
     ShishuImmensityThemeAndroidOverlay \
     ShishuImmensityThemeSettingsOverlay \
-    ShishuImmensityThemeSystemUIOverlay \
     ShishuThemeAndroidOverlay \
     ShishuThemeSettingsOverlay \
-    ShishuThemeSystemUIOverlay \
     ShishuNightsThemeAndroidOverlay \
     ShishuNightsThemeSettingsOverlay \
-    ShishuNightsThemeSystemUIOverlay \
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
