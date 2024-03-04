@@ -254,8 +254,8 @@ PRODUCT_PACKAGES += \
 # Navbar styles
 PRODUCT_PACKAGES += \
     NavbarAndroidOverlay \
-	NavbarAsusOverlay \
-	NavbarDoraOverlay \
+    NavbarAsusOverlay \
+    NavbarDoraOverlay \
     NavbarMotoOverlay \
     NavbarNexusOverlay \
     NavbarOldOverlay \
@@ -298,10 +298,10 @@ PRODUCT_PACKAGES += \
     WingSignalOverlay \
     XperiaSignalOverlay \
     ZigZagSignalOverlay \
-	AuroraSignalOverlay \
-	FaintUISignalOverlay \
-	ForlornSignalOverlay \
-	PlumpySignalOverlay
+    AuroraSignalOverlay \
+    FaintUISignalOverlay \
+    ForlornSignalOverlay \
+    PlumpySignalOverlay
 
 # WiFi Icons
 PRODUCT_PACKAGES += \
@@ -317,10 +317,10 @@ PRODUCT_PACKAGES += \
     WeedWiFiOverlay \
     XperiaWiFiOverlay \
     ZigZagWiFiOverlay \
-	AuroraWiFiOverlay \
-	FaintUIWiFiOverlay \
-	ForlornWiFiOverlay \
-	PlumpyWiFiOverlay
+    AuroraWiFiOverlay \
+    FaintUIWiFiOverlay \
+    ForlornWiFiOverlay \
+    PlumpyWiFiOverlay
 
 # Brightness bar styles
 PRODUCT_PACKAGES += \
