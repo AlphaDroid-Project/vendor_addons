@@ -344,9 +344,6 @@ PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay
 
 PRODUCT_PACKAGES += \
-    UnmonetThemeAndroidOverlay \
-    UnmonetThemeSettingsOverlay \
-    UnmonetThemeSystemUIOverlay \
     ShishuIllusionsThemeAndroidOverlay \
     ShishuIllusionsThemeSettingsOverlay \
     ShishuImmensityThemeAndroidOverlay \
