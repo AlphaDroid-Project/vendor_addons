@@ -19,7 +19,7 @@ package {
 }
 
 runtime_resource_overlay {
-    name: "IconShapeIosOverlay",
-    theme: "IconShapeIos",
+    name: "IconShapeScrollOverlay",
+    theme: "IconShapeScroll",
     product_specific: true,
 }

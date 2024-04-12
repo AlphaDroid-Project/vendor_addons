@@ -19,7 +19,7 @@ package {
 }
 
 runtime_resource_overlay {
-    name: "IconShapeIosOverlay",
-    theme: "IconShapeIos",
+    name: "IconShapeSamsungOverlay",
+    theme: "IconShapeSamsung",
     product_specific: true,
 }
