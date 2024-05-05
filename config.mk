@@ -268,19 +268,6 @@ PRODUCT_PACKAGES += \
     NavbarSammyOverlay \
     NavbarTecnoCamonOverlay
 
-# QS UI Style
-PRODUCT_PACKAGES += \
-    A11QSUI \
-    QSOutline \
-    QSTwoToneAccent \
-    QSTwoToneAccentTrans \
-    QSShaded \
-    QSCyberPunk \
-    QSNeumorph \
-    QSReflected \
-    QSSurround \
-    QSThin
-
 # Signal Icons
 PRODUCT_PACKAGES += \
     AquariumSignalOverlay \
