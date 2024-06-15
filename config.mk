@@ -394,6 +394,15 @@ PRODUCT_PACKAGES += \
     QSSurroundOverlay \
     QSThinOutlineOverlay
 
+# Volume panel styles
+PRODUCT_PACKAGES += \
+    VSDoubleLayerOverlay \
+    VSGradientOverlay \
+    VSNeumorphOutlineOverlay \
+    VSNeumorphOverlay \
+    VSOutlineOverlay \
+    VSShadedLayerOverlay
+
 # Themes
 PRODUCT_PACKAGES += \
     AndroidBlackThemeOverlay

@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "VSOutlineOverlay",
+    theme: "VSOutline",
+    product_specific: true,
+}

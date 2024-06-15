@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "VSNeumorphOverlay",
+    theme: "VSNeumorph",
+    product_specific: true,
+}
