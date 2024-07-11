@@ -54,6 +54,7 @@
         <item>udfps_rog_fusion_recognizing_anim</item>
         <item>udfps_rog_pulsar_recognizing_anim</item>
         <item>udfps_rog_supernova_recognizing_anim</item>
+        <item>keqings</item>
     </string-array>
 
     <string-array translatable="false" name="udfps_animation_previews">
@@ -94,6 +95,7 @@
         <item>asus_udfps_anim_1_10</item>
         <item>asus_udfps_anim_2_35</item>
         <item>asus_udfps_anim_3_25</item>
+        <item>keqings</item>
     </string-array>
 
     <string-array translatable="false" name="udfps_animation_titles">
@@ -134,6 +136,7 @@
         <item>Fusion</item>
         <item>Pulsar</item>
         <item>Supernova</item>
+        <item>keqings</item>
     </string-array>
 
 </resources>
