@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2024 The Alphadroid Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/keqings_0" android:duration="6" />
+    <item android:drawable="@drawable/keqings_1" android:duration="6" />
+    <item android:drawable="@drawable/keqings_2" android:duration="6" />
+    <item android:drawable="@drawable/keqings_3" android:duration="6" />
+    <item android:drawable="@drawable/keqings_4" android:duration="6" />
+    <item android:drawable="@drawable/keqings_5" android:duration="6" />
+    <item android:drawable="@drawable/keqings_6" android:duration="6" />
+    <item android:drawable="@drawable/keqings_7" android:duration="6" />
+    <item android:drawable="@drawable/keqings_8" android:duration="6" />
+    <item android:drawable="@drawable/keqings_9" android:duration="6" />
+    <item android:drawable="@drawable/keqings_10" android:duration="6" />
+    <item android:drawable="@drawable/keqings_11" android:duration="6" />
+    <item android:drawable="@drawable/keqings_12" android:duration="6" />
+    <item android:drawable="@drawable/keqings_13" android:duration="6" />
+    <item android:drawable="@drawable/keqings_14" android:duration="6" />
+    <item android:drawable="@drawable/keqings_15" android:duration="6" />
+    <item android:drawable="@drawable/keqings_16" android:duration="6" />
+    <item android:drawable="@drawable/keqings_17" android:duration="6" />
+    <item android:drawable="@drawable/keqings_18" android:duration="6" />
+    <item android:drawable="@drawable/keqings_19" android:duration="6" />
+    <item android:drawable="@drawable/keqings_20" android:duration="6" />
+    <item android:drawable="@drawable/keqings_21" android:duration="6" />
+    <item android:drawable="@drawable/keqings_22" android:duration="6" />
+    <item android:drawable="@drawable/keqings_23" android:duration="6" />
+    <item android:drawable="@drawable/keqings_24" android:duration="6" />
+    <item android:drawable="@drawable/keqings_25" android:duration="6" />
+    <item android:drawable="@drawable/keqings_26" android:duration="6" />
+    <item android:drawable="@drawable/keqings_27" android:duration="6" />
+    <item android:drawable="@drawable/keqings_28" android:duration="6" />
+    <item android:drawable="@drawable/keqings_29" android:duration="6" />
+    <item android:drawable="@drawable/keqings_30" android:duration="6" />
+    <item android:drawable="@drawable/keqings_31" android:duration="6" />
+    <item android:drawable="@drawable/keqings_32" android:duration="6" />
+    <item android:drawable="@drawable/keqings_33" android:duration="6" />
+    <item android:drawable="@drawable/keqings_34" android:duration="6" />
+    <item android:drawable="@drawable/keqings_35" android:duration="6" />
+    <item android:drawable="@drawable/keqings_36" android:duration="6" />
+    <item android:drawable="@drawable/keqings_37" android:duration="6" />
+    <item android:drawable="@drawable/keqings_38" android:duration="6" />
+    <item android:drawable="@drawable/keqings_39" android:duration="6" />
+    <item android:drawable="@drawable/keqings_40" android:duration="6" />
+    <item android:drawable="@drawable/keqings_41" android:duration="6" />
+    <item android:drawable="@drawable/keqings_42" android:duration="6" />
+    <item android:drawable="@drawable/keqings_43" android:duration="6" />
+    <item android:drawable="@drawable/keqings_44" android:duration="6" />
+    <item android:drawable="@drawable/keqings_45" android:duration="6" />
+    <item android:drawable="@drawable/keqings_46" android:duration="6" />
+    <item android:drawable="@drawable/keqings_47" android:duration="6" />
+    <item android:drawable="@drawable/keqings_48" android:duration="6" />
+    <item android:drawable="@drawable/keqings_49" android:duration="6" />
+    <item android:drawable="@drawable/keqings_50" android:duration="6" />
+    <item android:drawable="@drawable/keqings_51" android:duration="6" />
+    <item android:drawable="@drawable/keqings_52" android:duration="6" />
+    <item android:drawable="@drawable/keqings_53" android:duration="6" />
+    <item android:drawable="@drawable/keqings_54" android:duration="6" />
+    <item android:drawable="@drawable/keqings_55" android:duration="6" />
+    <item android:drawable="@drawable/keqings_56" android:duration="6" />
+    <item android:drawable="@drawable/keqings_57" android:duration="6" />
+    <item android:drawable="@drawable/keqings_58" android:duration="6" />
+    <item android:drawable="@drawable/keqings_59" android:duration="6" />
+</animation-list>
