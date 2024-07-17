@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.android.systemui.qs.landscape.split_shade_layout"
+        android:versionCode="1"
+        android:versionName="1.0">
+    <overlay android:targetPackage="com.android.systemui"
+        android:category="android.theme.customization.qs_landscape_layout"
+        android:priority="1"/>
+
+    <application android:allowBackup="false" android:label="Split Shade layout" android:hasCode="false"/>
+</manifest>
