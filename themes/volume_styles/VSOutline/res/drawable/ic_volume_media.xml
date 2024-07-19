@@ -18,7 +18,7 @@
     android:viewportHeight="24.0"
     android:viewportWidth="24.0"
     android:width="24.0dp"
-    android:tint="@*android:color/vs_icon_tint" >
+    android:tint="@*android:color/alpha_color_primary" >
 
     <path
         android:fillColor="#FFFFFFFF"

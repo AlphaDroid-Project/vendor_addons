@@ -52,7 +52,7 @@
             android:toDegrees="-270.0">
             <com.android.systemui.util.AlphaTintDrawableWrapper
                 android:drawable="@drawable/ic_volume_media"
-                android:tint="@*android:color/vs_icon_tint" />
+                android:tint="@*android:color/alpha_color_primary" />
         </rotate>
     </item>
 </layer-list>
