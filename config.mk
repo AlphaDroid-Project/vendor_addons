@@ -464,6 +464,7 @@ PRODUCT_PACKAGES += \
     ShishuThemeSettingsOverlay \
     ShishuNightsThemeAndroidOverlay \
     ShishuNightsThemeSettingsOverlay \
+    VividThemeAndroidOverlay
 
 # Slit shade (landscape qs style)
 PRODUCT_PACKAGES += \
