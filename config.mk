@@ -262,6 +262,12 @@ PRODUCT_PACKAGES += \
     NavbarSammyOverlay \
     NavbarTecnoCamonOverlay
 
+# Prebuilt packages
+ifeq ($(TARGET_INCLUDE_RIMUSIC),true)
+PRODUCT_PACKAGES += \
+    RiMusic
+endif
+
 # Signal Icons
 PRODUCT_PACKAGES += \
     AquariumSignalOverlay \

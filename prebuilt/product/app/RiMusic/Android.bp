@@ -1,0 +1,12 @@
+android_app_import {
+    name: "RiMusic",
+    apk: "RiMusic.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    skip_preprocessed_apk_checks: true,
+    overrides: ["Eleven"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
