@@ -130,9 +130,7 @@
     </install-in-user-type>
 
     <!--  Messages (PrebuiltBugle) -->
-    <!-- mesaging running on any user uses SYSTEM user's messaging instance to process messages. -->
     <install-in-user-type package="com.google.android.apps.messaging">
-        <install-in user-type="SYSTEM" />
         <install-in user-type="FULL" />
         <install-in user-type="PROFILE" />
         <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
@@ -186,5 +184,39 @@
         <install-in user-type="FULL" />
         <install-in user-type="PROFILE" />
         <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+
+    <!-- AI Labs Warp app. Loaded from hardware/google/pixel/common/pixel-common-device.mk -->
+    <install-in-user-type package="com.google.android.apps.warp">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+    </install-in-user-type>
+
+    <!-- Google Home app -->
+    <install-in-user-type package="com.google.android.apps.chromecast.app">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+
+
+    <!-- BetterBug external app -->
+    <install-in-user-type package="com.google.android.apps.betterbug">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+
+    <!-- Weather app -->
+    <install-in-user-type package="com.google.android.apps.weather">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.PRIVATE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
     </install-in-user-type>
 </config>
