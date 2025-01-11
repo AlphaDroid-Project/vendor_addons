@@ -14,17 +14,17 @@
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay/common
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/common
+# PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay/common
+# PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/addons/overlay/common
 
-ifeq ($(TARGET_HAS_UDFPS),true)
-PRODUCT_PACKAGES += \
-    UdfpsIcons \
-    UdfpsAnimations
-endif
-
-PRODUCT_COPY_FILES += \
-    vendor/addons/prebuilt/product/etc/permissions/com.android.angle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.angle.xml
+# ifeq ($(TARGET_HAS_UDFPS),true)
+# PRODUCT_PACKAGES += \
+#     UdfpsIcons \
+#     UdfpsAnimations
+# endif
+#
+# PRODUCT_COPY_FILES += \
+#     vendor/addons/prebuilt/product/etc/permissions/com.android.angle.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.angle.xml
 
 # Clocks
 PRODUCT_PACKAGES += \
@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
 # Fonts
 PRODUCT_PACKAGES += \
     fonts_customization.xml \
-		ClockFont3DIsometricBlackOverlay \
+    ClockFont3DIsometricBlackOverlay \
     ClockFont3DIsometricBoldOverlay \
     ClockFontACFilmstripOverlay \
     ClockFontAccuratistOverlay \
@@ -262,30 +262,30 @@ PRODUCT_PACKAGES += \
     IconShapeVesselOverlay
 
 # Navbar
-PRODUCT_PACKAGES += \
-    GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden \
-    GesturalNavigationOverlayHiddenNarrow
+# PRODUCT_PACKAGES += \
+#     GesturalNavigationOverlayLong \
+#     GesturalNavigationOverlayMedium \
+#     GesturalNavigationOverlayHidden \
+#     GesturalNavigationOverlayHiddenNarrow
 
 # Navbar styles
-PRODUCT_PACKAGES += \
-    NavbarAndroidOverlay \
-    NavbarAsusOverlay \
-    NavbarDoraOverlay \
-    NavbarMotoOverlay \
-    NavbarNexusOverlay \
-    NavbarOldOverlay \
-    NavbarOnePlusOverlay \
-    NavbarOneUiOverlay \
-    NavbarSammyOverlay \
-    NavbarTecnoCamonOverlay
+# PRODUCT_PACKAGES += \
+#     NavbarAndroidOverlay \
+#     NavbarAsusOverlay \
+#     NavbarDoraOverlay \
+#     NavbarMotoOverlay \
+#     NavbarNexusOverlay \
+#     NavbarOldOverlay \
+#     NavbarOnePlusOverlay \
+#     NavbarOneUiOverlay \
+#     NavbarSammyOverlay \
+#     NavbarTecnoCamonOverlay
 
 # Prebuilt packages
-ifeq ($(TARGET_INCLUDE_RIMUSIC),true)
-PRODUCT_PACKAGES += \
-    RiMusic
-endif
+# ifeq ($(TARGET_INCLUDE_RIMUSIC),true)
+# PRODUCT_PACKAGES += \
+#     RiMusic
+# endif
 
 # Signal Icons
 PRODUCT_PACKAGES += \
@@ -400,99 +400,99 @@ PRODUCT_PACKAGES += \
     PlumpyWiFiOverlay
 
 # Brightness bar styles
-PRODUCT_PACKAGES += \
-    BBBlockyThumbOverlay \
-    BBCommetThumbOverlay \
-    BBDoubleLayerOverlay \
-    BBFluidNeutralOverlay \
-    BBFluidOutlineOverlay \
-    BBFluidOverlay \
-    BBGradientThumbOverlay \
-    BBInlineOverlay \
-    BBLeafyOutlineOverlay \
-    BBLightyOverlay \
-    BBMinimalThumbOverlay \
-    BBNeumorphOutlineOverlay \
-    BBNeumorphOverlay \
-    BBNeumorphThumbOverlay \
-    BBOldSchoolThumbOverlay \
-    BBOutlineOverlay \
-    BBPurfectOverlay \
-    BBRoundedBarOverlay \
-    BBRoundedClipOverlay \
-    BBShadedLayerOverlay \
-    BBThinOutlineOverlay
+# PRODUCT_PACKAGES += \
+#     BBBlockyThumbOverlay \
+#     BBCommetThumbOverlay \
+#     BBDoubleLayerOverlay \
+#     BBFluidNeutralOverlay \
+#     BBFluidOutlineOverlay \
+#     BBFluidOverlay \
+#     BBGradientThumbOverlay \
+#     BBInlineOverlay \
+#     BBLeafyOutlineOverlay \
+#     BBLightyOverlay \
+#     BBMinimalThumbOverlay \
+#     BBNeumorphOutlineOverlay \
+#     BBNeumorphOverlay \
+#     BBNeumorphThumbOverlay \
+#     BBOldSchoolThumbOverlay \
+#     BBOutlineOverlay \
+#     BBPurfectOverlay \
+#     BBRoundedBarOverlay \
+#     BBRoundedClipOverlay \
+#     BBShadedLayerOverlay \
+#     BBThinOutlineOverlay
 
 # Notification styles
-PRODUCT_PACKAGES += \
-    NFBottomOutlineOverlay \
-    NFCyberponkOverlay \
-    NFCyberponkV2Overlay \
-    NFDumbbellOverlay \
-    NFDuolineOverlay \
-    NFFadedOverlay \
-    NFFluidNeutralOverlay \
-    NFFluidOverlay \
-    NFiOSOverlay \
-    NFLayersOverlay \
-    NFLeafyOutlineOverlay \
-    NFLightyOverlay \
-    NFNeumorphOutlineOverlay \
-    NFNeumorphOverlay \
-    NFOutlineOverlay \
-    NFPitchBlackOverlay \
-    NFSideStackOverlay \
-    NFStackOverlay \
-    NFThinOutlineOverlay \
-    NFThreadLineOverlay
+# PRODUCT_PACKAGES += \
+#     NFBottomOutlineOverlay \
+#     NFCyberponkOverlay \
+#     NFCyberponkV2Overlay \
+#     NFDumbbellOverlay \
+#     NFDuolineOverlay \
+#     NFFadedOverlay \
+#     NFFluidNeutralOverlay \
+#     NFFluidOverlay \
+#     NFiOSOverlay \
+#     NFLayersOverlay \
+#     NFLeafyOutlineOverlay \
+#     NFLightyOverlay \
+#     NFNeumorphOutlineOverlay \
+#     NFNeumorphOverlay \
+#     NFOutlineOverlay \
+#     NFPitchBlackOverlay \
+#     NFSideStackOverlay \
+#     NFStackOverlay \
+#     NFThinOutlineOverlay \
+#     NFThreadLineOverlay
 
 # QS panel styles
-PRODUCT_PACKAGES += \
-    QSBookmarkOverlay \
-    QSBottomOutlineOverlay \
-    QSCyberponkOverlay \
-    QSCyberponkV2Overlay \
-    QSDividedOverlay \
-    QSDoubleLayerOverlay \
-    QSFluidNeutralOverlay \
-    QSFluidOutlineOverlay \
-    QSFluidOverlay \
-    QSLeafyOutlineOverlay \
-    QSLightyOverlay \
-    QSNeumorphOutlineOverlay \
-    QSNeumorphOverlay \
-    QSOutlineOverlay \
-    QSPurfectOverlay \
-    QSShadedLayerOverlay \
-    QSSurroundOverlay \
-    QSThinOutlineOverlay
+# PRODUCT_PACKAGES += \
+#     QSBookmarkOverlay \
+#     QSBottomOutlineOverlay \
+#     QSCyberponkOverlay \
+#     QSCyberponkV2Overlay \
+#     QSDividedOverlay \
+#     QSDoubleLayerOverlay \
+#     QSFluidNeutralOverlay \
+#     QSFluidOutlineOverlay \
+#     QSFluidOverlay \
+#     QSLeafyOutlineOverlay \
+#     QSLightyOverlay \
+#     QSNeumorphOutlineOverlay \
+#     QSNeumorphOverlay \
+#     QSOutlineOverlay \
+#     QSPurfectOverlay \
+#     QSShadedLayerOverlay \
+#     QSSurroundOverlay \
+#     QSThinOutlineOverlay
 
 # Volume panel styles
-PRODUCT_PACKAGES += \
-    VSDoubleLayerOverlay \
-    VSGradientOverlay \
-    VSNeumorphOutlineOverlay \
-    VSNeumorphOverlay \
-    VSOutlineOverlay \
-    VSShadedLayerOverlay
+# PRODUCT_PACKAGES += \
+#     VSDoubleLayerOverlay \
+#     VSGradientOverlay \
+#     VSNeumorphOutlineOverlay \
+#     VSNeumorphOverlay \
+#     VSOutlineOverlay \
+#     VSShadedLayerOverlay
 
 # Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
+# PRODUCT_PACKAGES += \
+#     AndroidBlackThemeOverlay
 
-PRODUCT_PACKAGES += \
-    ShishuIllusionsThemeAndroidOverlay \
-    ShishuIllusionsThemeSettingsOverlay \
-    ShishuImmensityThemeAndroidOverlay \
-    ShishuImmensityThemeSettingsOverlay \
-    ShishuThemeAndroidOverlay \
-    ShishuThemeSettingsOverlay \
-    ShishuNightsThemeAndroidOverlay \
-    ShishuNightsThemeSettingsOverlay \
+# PRODUCT_PACKAGES += \
+#     ShishuIllusionsThemeAndroidOverlay \
+#     ShishuIllusionsThemeSettingsOverlay \
+#     ShishuImmensityThemeAndroidOverlay \
+#     ShishuImmensityThemeSettingsOverlay \
+#     ShishuThemeAndroidOverlay \
+#     ShishuThemeSettingsOverlay \
+#     ShishuNightsThemeAndroidOverlay \
+#     ShishuNightsThemeSettingsOverlay \
 
 # Slit shade (landscape qs style)
-PRODUCT_PACKAGES += \
-    SplitShadeLayoutOverlay
+# PRODUCT_PACKAGES += \
+#     SplitShadeLayoutOverlay
 
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
