@@ -16,16 +16,16 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.theme.font.harmonysans"
+    package="com.android.theme.lockscreen_clock_font.play"
     android:versionCode="1"
     android:versionName="1.0">
     <overlay android:targetPackage="android"
-        android:category="android.theme.customization.font"
+        android:category="android.theme.customization.lockscreen_clock_font"
         android:priority="1"/>
 
-    <application android:label="@string/font_harmonyos_sans_overlay" android:hasCode="false">
+    <application android:label="@string/font_play_overlay" android:hasCode="false">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="harmonyos-sans,harmonyos-sans-medium"/>
+            android:value="play,play-semi-bold,play-bold,play-light,play-medium,play-regular" />
     </application>
 </manifest>
