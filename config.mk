@@ -249,9 +249,7 @@ PRODUCT_PACKAGES += \
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium \
-    GesturalNavigationOverlayHidden \
-    GesturalNavigationOverlayHiddenNarrow
+    GesturalNavigationOverlayMedium
 
 # Navbar styles
 PRODUCT_PACKAGES += \
