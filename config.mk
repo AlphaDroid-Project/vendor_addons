@@ -321,72 +321,73 @@ PRODUCT_PACKAGES += \
     PlumpyWiFiOverlay
 
 # Brightness bar styles
-# PRODUCT_PACKAGES += \
-#     BBBlockyThumbOverlay \
-#     BBCommetThumbOverlay \
-#     BBDoubleLayerOverlay \
-#     BBFluidNeutralOverlay \
-#     BBFluidOutlineOverlay \
-#     BBFluidOverlay \
-#     BBGradientThumbOverlay \
-#     BBInlineOverlay \
-#     BBLeafyOutlineOverlay \
-#     BBLightyOverlay \
-#     BBMinimalThumbOverlay \
-#     BBNeumorphOutlineOverlay \
-#     BBNeumorphOverlay \
-#     BBNeumorphThumbOverlay \
-#     BBOldSchoolThumbOverlay \
-#     BBOutlineOverlay \
-#     BBPurfectOverlay \
-#     BBRoundedBarOverlay \
-#     BBRoundedClipOverlay \
-#     BBShadedLayerOverlay \
-#     BBThinOutlineOverlay
+PRODUCT_PACKAGES += \
+    BBBlockyThumbOverlay \
+    BBCommetThumbOverlay \
+    BBDoubleLayerOverlay \
+    BBFluidNeutralOverlay \
+    BBFluidOutlineOverlay \
+    BBFluidOverlay \
+    BBGradientThumbOverlay \
+    BBInlineOverlay \
+    BBLeafyOutlineOverlay \
+    BBLightyOverlay \
+    BBMinimalThumbOverlay \
+    BBNeumorphOutlineOverlay \
+    BBNeumorphOverlay \
+    BBNeumorphThumbOverlay \
+    BBOldSchoolThumbOverlay \
+    BBOutlineOverlay \
+    BBPurfectOverlay \
+    BBRoundedBarOverlay \
+    BBRoundedClipOverlay \
+    BBShadedLayerOverlay \
+    BBThinOutlineOverlay
 
 # Notification styles
-# PRODUCT_PACKAGES += \
-#     NFBottomOutlineOverlay \
-#     NFCyberponkOverlay \
-#     NFCyberponkV2Overlay \
-#     NFDumbbellOverlay \
-#     NFDuolineOverlay \
-#     NFFadedOverlay \
-#     NFFluidNeutralOverlay \
-#     NFFluidOverlay \
-#     NFiOSOverlay \
-#     NFLayersOverlay \
-#     NFLeafyOutlineOverlay \
-#     NFLightyOverlay \
-#     NFNeumorphOutlineOverlay \
-#     NFNeumorphOverlay \
-#     NFOutlineOverlay \
-#     NFPitchBlackOverlay \
-#     NFSideStackOverlay \
-#     NFStackOverlay \
-#     NFThinOutlineOverlay \
-#     NFThreadLineOverlay
+PRODUCT_PACKAGES += \
+    NFBottomOutlineOverlay \
+    NFCyberponkOverlay \
+    NFCyberponkV2Overlay \
+    NFDumbbellOverlay \
+    NFDuolineOverlay \
+    NFFadedOverlay \
+    NFFluidNeutralOverlay \
+    NFFluidOverlay \
+    NFiOSOverlay \
+    NFLayersOverlay \
+    NFLeafyOutlineOverlay \
+    NFLightyOverlay \
+    NFNeumorphOutlineOverlay \
+    NFNeumorphOverlay \
+    NFOutlineOverlay \
+    NFPitchBlackOverlay \
+    NFSideStackOverlay \
+    NFStackOverlay \
+    NFThinOutlineOverlay \
+    NFThreadLineOverlay
 
 # QS panel styles
-# PRODUCT_PACKAGES += \
-#     QSBookmarkOverlay \
-#     QSBottomOutlineOverlay \
-#     QSCyberponkOverlay \
-#     QSCyberponkV2Overlay \
-#     QSDividedOverlay \
-#     QSDoubleLayerOverlay \
-#     QSFluidNeutralOverlay \
-#     QSFluidOutlineOverlay \
-#     QSFluidOverlay \
-#     QSLeafyOutlineOverlay \
-#     QSLightyOverlay \
-#     QSNeumorphOutlineOverlay \
-#     QSNeumorphOverlay \
-#     QSOutlineOverlay \
-#     QSPurfectOverlay \
-#     QSShadedLayerOverlay \
-#     QSSurroundOverlay \
-#     QSThinOutlineOverlay
+PRODUCT_PACKAGES += \
+    QSBottomOutlineOverlay \
+    QSCyberponkOverlay \
+    QSCyberponkV2Overlay \
+    QSDoubleLayerOverlay \
+    QSFluidNeutralOverlay \
+    QSFluidOutlineOverlay \
+    QSFluidOverlay \
+    QSLightyOverlay \
+    QSNeumorphOutlineOverlay \
+    QSNeumorphOverlay \
+    QSOutlineOverlay \
+    QSPurfectOverlay \
+    QSShadedLayerOverlay \
+    QSSurroundOverlay \
+    QSThinOutlineOverlay
+
+#    QSBookmarkOverlay \
+#    QSDividedOverlay \
+#    QSLeafyOutlineOverlay \
 
 # Volume panel styles
 # PRODUCT_PACKAGES += \
