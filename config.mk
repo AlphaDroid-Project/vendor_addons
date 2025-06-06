@@ -381,10 +381,10 @@ PRODUCT_PACKAGES += \
     QSNeumorphOverlay \
     QSOutlineOverlay \
     QSPurfectOverlay \
-    QSShadedLayerOverlay \
     QSSurroundOverlay \
     QSThinOutlineOverlay
 
+#    QSShadedLayerOverlay \
 #    QSBookmarkOverlay \
 #    QSDividedOverlay \
 #    QSLeafyOutlineOverlay \
