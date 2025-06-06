@@ -3,7 +3,7 @@
     <item>
         <layer-list>
             <item>
-                <shape android:tintMode="multiply">
+                <shape android:tintMode="src_in">
                     <gradient
                         android:angle="0.0"
                         android:endColor="@*android:color/qs_color_accent_secondary"
@@ -17,7 +17,7 @@
                 android:start="2.0dp"
                 android:top="2.0dp">
                 <shape android:tintMode="multiply">
-                    <solid android:color="?android:colorBackgroundFloating" />
+                    <solid android:color="@*android:color/qs_color_inactive" />
                     <corners android:radius="@*android:dimen/qs_corner_radius_right" />
                 </shape>
             </item>
