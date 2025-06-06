@@ -400,19 +400,15 @@ PRODUCT_PACKAGES += \
 
 # UI styles
 PRODUCT_PACKAGES += \
-		BlackThemeAndroidOverlay \
-		BlackThemeSettingsOverlay \
-		BlackThemeSystemUIOverlay \
-		ShishuIllusionsThemeAndroidOverlay \
-		ShishuIllusionsThemeSettingsOverlay \
-		ShishuImmensityThemeAndroidOverlay \
-		ShishuImmensityThemeSettingsOverlay \
-		ShishuThemeAndroidOverlay \
-		ShishuThemeSettingsOverlay \
-		ShishuNightsThemeAndroidOverlay \
-		ShishuNightsThemeSettingsOverlay \
-		ShishuAmalgamationThemeAndroidOverlay \
-		ShishuAmalgamationThemeSettingsOverlay
+    BlackThemeAndroidOverlay \
+    BlackThemeSettingsOverlay \
+    ShishuAmalgamationThemeAndroidOverlay \
+    ShishuAmalgamationThemeSettingsOverlay \
+    ShishuIllusionsThemeAndroidOverlay \
+    ShishuImmensityThemeAndroidOverlay \
+    ShishuThemeAndroidOverlay \
+    ShishuThemeSettingsOverlay \
+    ShishuNightsThemeAndroidOverlay
 
 # Slit shade (landscape qs style)
 # PRODUCT_PACKAGES += \

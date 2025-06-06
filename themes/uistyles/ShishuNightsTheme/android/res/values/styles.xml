@@ -58,6 +58,8 @@
         <item name="android:windowShowWallpaper">true</item>   <!--Nukes navbar fade-out on Android 8.1: No fixes-->
         <item name="android:windowIsTranslucent">false</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBlurBehindEnabled">true</item>
+        <item name="android:windowBlurBehindRadius">10px</item>
     </style>
 
     <!-- DeviceDefault theme for day/night activities. Chaos -->

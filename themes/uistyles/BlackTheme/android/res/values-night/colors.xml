@@ -23,10 +23,10 @@
     <color name="system_neutral1_200">@android:color/system_accent1_50</color>
     <color name="system_neutral1_300">@android:color/system_accent1_50</color>
     <color name="system_neutral1_400">@android:color/system_accent1_100</color>
-    <color name="system_neutral1_500">#242424</color>
-    <color name="system_neutral1_600">#212121</color>
-    <color name="system_neutral1_700">#191919</color>
-    <color name="system_neutral1_800">#171717</color>
+    <color name="system_neutral1_500">#272727</color>
+    <color name="system_neutral1_600">#242424</color>
+    <color name="system_neutral1_700">#212121</color>
+    <color name="system_neutral1_800">#191919</color>
     <color name="system_neutral1_900">#000000</color>
     <color name="system_neutral1_1000">#000000</color>
 
@@ -44,6 +44,21 @@
     <color name="system_neutral2_900">#000000</color>
     <color name="system_neutral2_1000">#000000</color>
 
-    <color name="system_surface_container_dark">@*android:color/background_device_default_dark</color>
-    <color name="surface_dark">@*android:color/background_device_default_dark</color>
+    <color name="alpha_surface_container_dark">#000000</color>
+
+    <color name="background_device_default_dark">#000000</color>
+    <color name="primary_dark_device_default_dark">#000000</color>
+    <color name="primary_dark_device_default_settings">#000000</color>
+    <color name="primary_device_default_dark">#000000</color>
+    <color name="primary_device_default_settings">#000000</color>
+
+    <color name="surface_dark">#000000</color>
+    <color name="system_surface_dark">#000000</color>
+    <color name="system_surface_container_dark">#000000</color>
+    <color name="system_surface_container_low_dark">#000000</color>
+    <color name="system_surface_container_lowest_dark">#000000</color>
+    <color name="system_surface_variant_dark">#0d0f13</color> <!-- google app header bg, progress bar bg -->
+    <color name="system_surface_dim_dark">#000000</color>
+    <color name="system_surface_container_high_dark">#0d0f13</color> <!-- notifications, themepicker menus background -->
+    <color name="system_surface_container_highest_dark">#0d0f13</color> <!-- themepicker header bg, switch (inactive) bg, inactive menus -->
 </resources>

@@ -16,6 +16,5 @@
   -->
 
 <resources>
-    <!-- This is a lazy change, dwai -->
-    <color name="bootleg_accent_gradient_end_color">@*android:color/system_accent1_300</color>
+    <color name="nad_color_background_tint">@*android:color/alpha_color_primary_accent_light</color>
 </resources>
