@@ -1,0 +1,11 @@
+android_app_import {
+    name: "SimpleTune",
+    apk: "SimpleTune.apk",
+    presigned: true,
+    preprocessed: true,
+    product_specific: true,
+    overrides: ["Eleven"],
+    dex_preopt: {
+        enabled: false,
+    },
+}
