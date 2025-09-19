@@ -14,11 +14,6 @@
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay/common
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    vendor/addons/overlay/common/packages/apps/Launcher3
-
-
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
     UdfpsIcons \
