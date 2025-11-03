@@ -1,10 +1,10 @@
 android_app_import {
-    name: "SimpleTune",
-    apk: "SimpleTune.apk",
+    name: "OuterTune",
+    apk: "OuterTune.apk",
     presigned: true,
     preprocessed: true,
     product_specific: true,
-    overrides: ["Eleven"],
+    overrides: ["Twelve"],
     dex_preopt: {
         enabled: false,
     },
