@@ -307,6 +307,7 @@ PRODUCT_PACKAGES += \
     BackGestureDotTrailOverlay \
     NothingChargingAnimationOverlay \
     MotoChargingAnimationOverlay \
+    SuperVoocChargingAnimationOverlay \
     BatteryStyleiOS15Overlay \
     BatteryStyleiOS16Overlay \
     BatteryStyleOneUI7Overlay \

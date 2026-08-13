@@ -2236,6 +2236,34 @@
  ]
  },
  {
+ "id": "charging_anim_supervooc",
+ "name": "SuperVOOC",
+ "description": "OxygenOS SuperVOOC ring. Shows SUPERVOOC + 100W only on a SuperVOOC adapter",
+ "author": "Alpha",
+ "version": "1.0",
+ "versionCode": 1,
+ "minSdk": 36,
+ "previewImages": [],
+ "category": "charging_animation",
+ "tags": [
+ "charging_animation",
+ "oneplus",
+ "supervooc",
+ "oxygenos"
+ ],
+ "isUnified": true,
+ "overlays": [
+ {
+ "componentId": "charging_animation",
+ "packageName": "com.android.systemui.charging_animation.supervooc",
+ "targets": [
+ "android.theme.customization.charging_animation"
+ ],
+ "enabled": true
+ }
+ ]
+ },
+ {
  "id": "battery_ios15",
  "name": "iOS 15",
  "description": "iOS 15-style horizontal battery with rounded fill",

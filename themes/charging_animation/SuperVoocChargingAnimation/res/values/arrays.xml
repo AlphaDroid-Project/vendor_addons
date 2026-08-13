@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="config_chargingAnimFrames">
+        <item>@drawable/oplus_charge_01</item>
+        <item>@drawable/oplus_charge_02</item>
+        <item>@drawable/oplus_charge_03</item>
+        <item>@drawable/oplus_charge_04</item>
+        <item>@drawable/oplus_charge_05</item>
+        <item>@drawable/oplus_charge_06</item>
+        <item>@drawable/oplus_charge_07</item>
+        <item>@drawable/oplus_charge_08</item>
+        <item>@drawable/oplus_charge_09</item>
+        <item>@drawable/oplus_charge_10</item>
+        <item>@drawable/oplus_charge_11</item>
+        <item>@drawable/oplus_charge_12</item>
+        <item>@drawable/oplus_charge_13</item>
+        <item>@drawable/oplus_charge_14</item>
+        <item>@drawable/oplus_charge_15</item>
+        <item>@drawable/oplus_charge_16</item>
+        <item>@drawable/oplus_charge_17</item>
+        <item>@drawable/oplus_charge_18</item>
+        <item>@drawable/oplus_charge_19</item>
+        <item>@drawable/oplus_charge_20</item>
+        <item>@drawable/oplus_charge_21</item>
+        <item>@drawable/oplus_charge_22</item>
+        <item>@drawable/oplus_charge_23</item>
+        <item>@drawable/oplus_charge_24</item>
+        <item>@drawable/oplus_charge_25</item>
+    </array>
+
+    <array name="config_chargingAnimSvoocFrames">
+        <item>@drawable/oplus_svooc_01</item>
+        <item>@drawable/oplus_svooc_02</item>
+        <item>@drawable/oplus_svooc_03</item>
+        <item>@drawable/oplus_svooc_04</item>
+        <item>@drawable/oplus_svooc_05</item>
+        <item>@drawable/oplus_svooc_06</item>
+        <item>@drawable/oplus_svooc_07</item>
+        <item>@drawable/oplus_svooc_08</item>
+        <item>@drawable/oplus_svooc_09</item>
+        <item>@drawable/oplus_svooc_10</item>
+        <item>@drawable/oplus_svooc_11</item>
+        <item>@drawable/oplus_svooc_12</item>
+        <item>@drawable/oplus_svooc_13</item>
+        <item>@drawable/oplus_svooc_14</item>
+        <item>@drawable/oplus_svooc_15</item>
+        <item>@drawable/oplus_svooc_16</item>
+        <item>@drawable/oplus_svooc_17</item>
+        <item>@drawable/oplus_svooc_18</item>
+        <item>@drawable/oplus_svooc_19</item>
+        <item>@drawable/oplus_svooc_20</item>
+        <item>@drawable/oplus_svooc_21</item>
+        <item>@drawable/oplus_svooc_22</item>
+        <item>@drawable/oplus_svooc_23</item>
+        <item>@drawable/oplus_svooc_24</item>
+        <item>@drawable/oplus_svooc_25</item>
+    </array>
+
+    <array name="config_chargingAnimWattageBg">
+        <item>@drawable/charging_wattage_bg</item>
+    </array>
+
+    <array name="config_chargingAnimLogo">
+        <item>@drawable/charging_supervooc_logo</item>
+    </array>
+</resources>

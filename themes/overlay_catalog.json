@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "lastUpdated": "2026-05-26T13:41:25Z",
+  "lastUpdated": "2026-08-13T03:14:21Z",
   "meta": {
     "description": "Local overlay catalog for AlphaVisuals. Installed on device as /product/etc/assets/overlay_catalog.json (product image, not APK resources); source in vendor/addons/themes. Supplies titles, authors, categories, and ThemeEngine category keys for main + detail screens.",
     "delivery": "local",
@@ -2229,6 +2229,35 @@
         {
           "componentId": "android.theme.customization.charging_animation",
           "packageName": "com.android.systemui.charging_animation.moto",
+          "targetPackage": "com.android.systemui",
+          "label": "Charging animation",
+          "targets": [
+            "android.theme.customization.charging_animation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "charging_anim_supervooc",
+      "name": "SuperVOOC",
+      "description": "OxygenOS SuperVOOC ring. Shows SUPERVOOC + 100W only on a SuperVOOC adapter",
+      "author": "Alpha",
+      "version": "1.0",
+      "versionCode": 1,
+      "minSdk": 36,
+      "previewImages": [],
+      "category": "charging_animation",
+      "tags": [
+        "charging_animation",
+        "oneplus",
+        "supervooc",
+        "oxygenos"
+      ],
+      "isUnified": true,
+      "overlays": [
+        {
+          "componentId": "android.theme.customization.charging_animation",
+          "packageName": "com.android.systemui.charging_animation.supervooc",
           "targetPackage": "com.android.systemui",
           "label": "Charging animation",
           "targets": [

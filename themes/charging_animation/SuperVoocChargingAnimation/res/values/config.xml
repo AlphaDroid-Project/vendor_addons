@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_useCustomChargingAnim">true</bool>
+    <integer name="config_chargingAnimMode">0</integer>
+    <bool name="config_chargingAnimDetectSvooc">true</bool>
+    <integer name="config_chargingAnimHandshakeTimeoutMs">2200</integer>
+    <bool name="config_chargingAnimDimEnabled">false</bool>
+    <integer name="config_chargingAnimFrameScale">118</integer>
+</resources>
