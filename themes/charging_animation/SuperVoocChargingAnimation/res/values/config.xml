@@ -6,4 +6,6 @@
     <integer name="config_chargingAnimHandshakeTimeoutMs">2200</integer>
     <bool name="config_chargingAnimDimEnabled">false</bool>
     <integer name="config_chargingAnimFrameScale">118</integer>
+    <integer name="config_chargingAnimFrameDurationMs">100</integer>
+    <integer name="config_chargingAnimHoldMs">1500</integer>
 </resources>
