@@ -308,6 +308,7 @@ PRODUCT_PACKAGES += \
     NothingChargingAnimationOverlay \
     MotoChargingAnimationOverlay \
     SuperVoocChargingAnimationOverlay \
+    libnativeChargingRing \
     BatteryStyleiOS15Overlay \
     BatteryStyleiOS16Overlay \
     BatteryStyleOneUI7Overlay \

@@ -1,7 +1,23 @@
+cc_prebuilt_library_shared {
+    name: "libnativeChargingRing",
+    arch: {
+        arm64: {
+            srcs: ["lib64/libnativeChargingRing.so"],
+        },
+    },
+    compile_multilib: "64",
+    system_ext_specific: true,
+    strip: {
+        none: true,
+    },
+    check_elf_files: false,
+}
+
 runtime_resource_overlay {
     name: "SuperVoocChargingAnimationOverlay",
     sdk_version: "current",
     resource_dirs: ["res"],
     product_specific: true,
     certificate: "platform",
+    required: ["libnativeChargingRing"],
 }
